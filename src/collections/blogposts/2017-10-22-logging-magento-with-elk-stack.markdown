@@ -6,7 +6,6 @@ categories: magento
 permalink: /blog/logging-magento-logs-with-elk-stack/
 author: Peter Jaap Blaakmeer
 ---
-## Keeping track with the ELK stack
 
 This is a quick tutorial on how to set up logging of Magento's log files using the ELK stack. ELK stands for Elasticsearch, Logstash and Kibana. I won't go too far into detail but basically Elasticsearch is used for storage and quick retrieval of log entries, Logstash is responsible for getting the data into Elasticsearch and Kibana is used to create overviews and visualizations of the big bulk of log entries.
 

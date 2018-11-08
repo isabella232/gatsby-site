@@ -11,7 +11,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/company/elgentos/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; elgentos</li><li>Built with: <a href="https://gatsbyjs.org">GatsbyJS</a></li>
+                <li>&copy; elgentos</li><li>Built with: <a href="https://gatsbyjs.org">GatsbyJS</a></li><li><a href="https://www.foundedingroningen.com/">Founded in Groningen</a></li>
             </ul>
         </div>
     </footer>

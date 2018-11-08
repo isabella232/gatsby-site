@@ -6,7 +6,7 @@ categories: magento
 permalink: /blog/building-a-vr-shop-part-3/
 author: Thijs Kuilman
 ---
-### Building a VR shop - Part 3: Bringing products into the VR world
+
 In the first blog, we learned about applying VR technologies to the web browser. In the second blog we took a look at designing a VR world that adapts to the active VR device. However, a shop isn't really useful if it lacks products. In this blog, we will take a look at bringing products into the VR world by using a technique called 'photogrammetry'.
 
 #### Blog parts

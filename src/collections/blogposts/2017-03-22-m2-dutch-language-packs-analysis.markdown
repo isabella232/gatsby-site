@@ -8,7 +8,6 @@ image: /assets/images/blogs/language-pack/flag.png
 excerpt: Which language pack is the best & how to analyse differences
 author: Peter Jaap Blaakmeer
 ---
-## Magento 2 Dutch language pack analysis
 
 There are three competing Magento 2 Dutch language packs to be found, freely available. We'll do a quantative analysis of these. The three competitors are (in alphabetical order):
  - [Adwise / magento2-nl_NL-language](https://github.com/Adwise/magento2-nl_NL-language)

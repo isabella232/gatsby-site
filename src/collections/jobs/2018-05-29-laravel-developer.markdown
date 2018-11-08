@@ -9,8 +9,6 @@ author: Peter Jaap Blaakmeer
 tags: laravel lumen botman gitlab kubernetes algolia git percona docker
 ---
 
-### Laravel PHP developer Elgentos BV
-
 Op zoek naar een nieuwe uitdaging in de Laravel hoek? Ben jij een echte developer met hart voor code quality? Wellicht ben jij dan een goede toevoeging aan ons team!
 
 ### Wie wij zijn

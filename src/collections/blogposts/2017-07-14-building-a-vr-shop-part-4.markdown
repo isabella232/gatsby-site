@@ -6,7 +6,7 @@ categories: magento
 permalink: /blog/building-a-vr-shop-part-4/
 author: Thijs Kuilman
 ---
-### Building a VR shop - Part 4: Use the VR module in your Magento shop
+
 We have arrived at the last part in the VR blogseries. In this part, we will take a look at implementing the VR module in your Magento shop. This is rather a short blogpost, since the extension is pretty straightforward and simple to use.
 
 #### Blog parts

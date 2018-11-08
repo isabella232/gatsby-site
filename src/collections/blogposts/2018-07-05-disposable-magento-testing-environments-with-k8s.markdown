@@ -7,8 +7,6 @@ permalink: /blog/disposable-magento-testing-environments-with-k8s/
 author: Peter Jaap Blaakmeer
 ---
 
-### Disposable Magento testing environments with Kubernetes
-
 In this blog we'll be talking about how we set up disposable testing environments ('Review Apps' in Gitlab terminology) using amongst other tools Gitlab, Docker, Google Cloud Platform (GCP) and Kubernetes (k8s). We are now using the disposable testing environments in our daily flow, which enables us to push out a certain branch, tag or specific commit to a testing environment that is automatically built up on push and tore down on merge, together with a database and all media files.
 
 !['Gitlab+Kubernetes+Docker'](../../assets/images/blogs/k8s/gitlab-k8s-docker.png)

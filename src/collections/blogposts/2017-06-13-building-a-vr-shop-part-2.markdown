@@ -6,7 +6,6 @@ categories: magento
 permalink: /blog/building-a-vr-shop-part-2/
 author: Thijs Kuilman
 ---
-### Building a VR shop - Part 2: Building an interactive VR World
 
 In the first blog, we learned about applying VR technologies to the web browser. In this blog, we will take a look at creating interesting and interactive VR worlds.
 

@@ -9,8 +9,6 @@ author: Peter Jaap Blaakmeer
 tags: magento2 magento1 gitlab laravel kubernetes algolia git percona docker
 ---
 
-### Vacature Magento PHP backend developer Elgentos BV
-
 Op zoek naar een nieuwe uitdaging in Magento land? Ben jij een echte developer met hart voor code quality? Wellicht ben jij dan een goede toevoeging aan ons team!
 
 ### Wie wij zijn

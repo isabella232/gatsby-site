@@ -8,7 +8,6 @@ image: /assets/images/blogs/unconference/mageunconference-2017-elgentos-team.jpg
 excerpt: Last weekend (March 3rd - 5th), we attended the MageUnconference in Cologne with the entire team, and boy was it fun!
 author: Peter Jaap Blaakmeer
 ---
-### MageUnconference 2017 Cologne
 
 Last weekend (March 3rd - 5th), we attended the MageUnconference in Cologne with the entire team. The German unconference was this year organised again by the Firegento association, in particular Carmen, Sonja, Rico and Fabian. First of all, thanks for your hard work!
 

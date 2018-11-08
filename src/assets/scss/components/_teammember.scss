@@ -1,0 +1,10 @@
+.image {
+  &.teammember {
+    clip-path: polygon(20% 0%,100% 0%,80% 100%,0% 100%);
+    filter: grayscale(25%);
+  }
+}
+
+div.teammember > p > a {
+  margin-right: 10px;
+}

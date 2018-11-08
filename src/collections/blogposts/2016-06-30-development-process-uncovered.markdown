@@ -7,8 +7,6 @@ permalink: /blog/our-development-process-uncovered/
 author: Peter Jaap Blaakmeer
 ---
 
-### Our development process uncovered
-
 When we started with elgentos back in 2011, a large part of our development and deployment process was manual. At that time, most of the tools we use today were not available. Over the years, we realized that processes take a rather large amount of our time, while we're in the business of automating things! Gradually, we started implementing industry standards aside from adopting cutting-edge technology and, well, cutting ourselves.
 
 This is an overview of our journey from back in 2011 to where we are today, which technology stack we're using to automate our internal processes and where we want go from here.

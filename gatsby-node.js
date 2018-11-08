@@ -46,7 +46,7 @@ exports.createPages = ({ graphql, actions }) => {
 
                     createPage({
                         path: post.node.frontmatter.permalink,
-                        component: post.node.frontmatter.type === "blog" ? blogPost : jobPost,
+                        component: post.node.frontmatter.type === "post" ? blogPost : jobPost,
                         context: {
                             slug: post.node.fields.slug,
                             previous,

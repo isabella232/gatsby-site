@@ -9,8 +9,6 @@ author: Wouter Steenmeijer
 tags: html css javascript react magento1 magento2 sass less lint gulp svg semantiek pwa
 ---
 
-### Vacature (Magento) frontend developer Elgentos BV
-
 Ben jij een gedreven, getalenteerde en nieuwsgierige frontender? En ben je op zoek naar een baan bij een leuk, klein en snelschakelend bedrijf? Zoek dan niet verder! Goede kans dat jij degene bent die wij zoeken om ons team te komen versterken in ons bedrijf!
 
 ### Wie wij zijn

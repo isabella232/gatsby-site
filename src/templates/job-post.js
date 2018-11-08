@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
-import BannerLanding from "../components/BannerLanding";
 
 class JobPostTemplate extends React.Component {
     render() {
@@ -19,10 +18,12 @@ class JobPostTemplate extends React.Component {
                     meta={[{ name: 'description', content: siteDescription }]}
                     title={`${post.frontmatter.title} | ${siteTitle}`}
                 />
-                <BannerLanding title={post.frontmatter.title} content="Vacatures" />
                 <div id="main" className="alt">
                     <section id="one">
                         <div className="inner">
+                            <header className="major">
+                                <h1>{post.frontmatter.title}</h1>
+                            </header>
                             <div className="box alt">
                                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                             </div>

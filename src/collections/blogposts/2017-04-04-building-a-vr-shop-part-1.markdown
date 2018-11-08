@@ -6,7 +6,6 @@ categories: magento
 permalink: /blog/building-a-vr-shop-part-1/
 author: Thijs Kuilman
 ---
-### Building a VR shop - Part 1: Bringing VR to the Web
 
 In the past few years, developments in Virtual Reality (VR) technologies has skyrocketed. Big companies like Google, Facebook and Sony have all joined the race to make the best VR products and experiences. Thanks to this fierce competition, a nice VR setup has never been more accessible for consumers. 
 

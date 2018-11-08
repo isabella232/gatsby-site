@@ -10,13 +10,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        logo: 'src/favicon.png',
         display: 'minimal-ui',
-        icon: 'src/favicon.png', // This path is relative to the root of the site.
+        icon: 'src/favicon.png',
       },
     },
     'gatsby-plugin-sass',
@@ -89,6 +85,13 @@ module.exports = {
                   'gatsby-remark-prismjs',
                   'gatsby-remark-copy-linked-files',
                   'gatsby-remark-smartypants',
+                  {
+                      resolve: `gatsby-plugin-google-analytics`,
+                      options: {
+                          trackingId: "UA-1292775-23",
+                          respectDNT: true,
+                      },
+                  },
               ],
           },
       },

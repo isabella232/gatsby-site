@@ -5,12 +5,30 @@ import Img from "gatsby-image"
 class TeamMember extends React.Component {
     render() {
         const data = this.props.teamMember
+
         return (
-            <div className="col-3">
-                <span className="image fit">
+            <div className="col-3 teammember">
+                <span className="image fit teammember">
                     <Img fluid={data.image.childImageSharp.fluid} />
                 </span>
-                <p>{data.name}<br/>{data.job_title}</p>
+                <span>{data.name}<br/>{data.job_title}</span>
+                <p>
+                    {data.twitter && data.twitter.length > 0 &&
+                    <a href={'https://twitter.com/' + data.twitter} target="_blank" class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    }
+                    {data.github && data.github.length > 0 &&
+                    <a href={'https://github.com/' + data.github} target="_blank" class="icon">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    }
+                    {data.linkedin && data.linkedin.length > 0 &&
+                    <a href={'https://nl.linkedin.com/in/' + data.linkedin} target="_blank" class="icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    }
+                </p>
             </div>
         );
     }

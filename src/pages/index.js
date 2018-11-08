@@ -4,12 +4,13 @@ import Layout from '../components/layout'
 import BannerHome from '../components/BannerHome'
 import FooterCta from '../components/FooterCta'
 import ArticleTile from '../components/ArticleTile'
+import MyMapComponent from '../components/MyMapComponent'
 
-import elgentos3 from '../assets/images/splash/elgentos-3.jpg'
+// import elgentos3 from '../assets/images/splash/elgentos-3.jpg'
+import elgentos15 from '../assets/images/splash/elgentos-15.jpg'
 import elgentos4 from '../assets/images/splash/elgentos-4.jpg'
 import elgentos6 from '../assets/images/splash/elgentos-6.jpg'
-import elgentos10 from '../assets/images/splash/elgentos-10.jpg'
-import elgentos15 from '../assets/images/splash/elgentos-15.jpg'
+// import elgentos10 from '../assets/images/splash/elgentos-10.jpg'
 import elgentos22 from '../assets/images/splash/elgentos-22.jpg'
 
 class HomeIndex extends React.Component {
@@ -26,7 +27,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <BannerHome title="Experts in Magento bouw" content="focus op Magento 2 backend gecombineerd met Laravel gebaseerde microservices en React frontends" cta="Laat zien dan" />
+                <BannerHome title="Experts in Magento bouw" content="focus op Magento 2 backend gecombineerd met Laravel gebaseerde microservices en React frontends" />
 
                 <div id="main">
                     <section id="one" className="tiles">
@@ -34,12 +35,20 @@ class HomeIndex extends React.Component {
                         <ArticleTile title="Team" content="Techneuten met passie voor code" link="/team" background={elgentos6}  />
                         <ArticleTile title="Blog" content="Kennisdeling vinden we leuk!" link="/blog" background={elgentos4}  />
                         {/*<ArticleTile title="Magento 2" content="Waarom overstappen loont" link="/magento2" background={elgentos4}  />*/}
-                        <ArticleTile title="Partners" content="Gave projecten doen we niet alleen" link="/partners" background={elgentos10}  />
+                        <ArticleTile title="Partners" content="Gave projecten doen we niet alleen" link="/partners" background={elgentos15}  />
                         <ArticleTile title="Vacatures" content="Wij zoeken versterking!" link="/vacatures" background={elgentos22}  />
                         {/*<ArticleTile title="Contact" content="Koffie?" link="/contact" background={elgentos3}  />*/}
                     </section>
                     <FooterCta title="Magento 2 webshops" content="Wil je een magento webshop beginnen of je bestaande magento webshop optimaliseren? elgentos is gespecialiseerd in het begeleiden van het 'denkproces over de webshops', het ontwerpen-, het ontwikkelen en onderhouden van webshops. Mooie, stabiele en goed converterende webshops bouwen, dat is het uitgangspunt van waaruit wij werken. We zijn in 2010 begonnen met webshops bouwen op Magento en dit is sindsdien onze primaire focus gebleven." link="/magento2" cta="Waarom Magento 2?" />
                 </div>
+
+                <MyMapComponent
+                    isMarkerShown
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAUxvzle5FGXaec9N2wiePOBmB3IyAYzxY"
+                    loadingElement={<div style={{ height: `100%` }} />}
+                    containerElement={<div style={{ height: `400px` }} />}
+                    mapElement={<div style={{ height: `100%` }} />}
+                />
 
             </Layout>
         )

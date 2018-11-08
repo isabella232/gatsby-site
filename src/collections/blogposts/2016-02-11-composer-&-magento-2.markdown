@@ -6,7 +6,7 @@ categories: magento
 permalink: /blog/composer-and-magento-2/
 author: Peter Jaap Blaakmeer
 ---
-### Composer & Magento 2
+
 *Met de komst van Magento 2 zal je de term vast vaker voorbij hebben zien komen. Wellicht heb je met andere PHP projecten er al mee gewerkt en misschien heb je zelfs net als wij je Magento 1.x shops er al in draaien; Composer. Maar wat is het, wat doet het en waarom moet je het gaan gebruiken?*
 
 

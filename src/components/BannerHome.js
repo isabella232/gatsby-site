@@ -8,9 +8,11 @@ const BannerHome = (props) => (
             </header>
             <div className="content">
                 <p>{props.content}</p>
+                {props.cta && props.cta.length > 0 &&
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">{props.cta}</a></li>
                 </ul>
+                }
             </div>
         </div>
     </section>

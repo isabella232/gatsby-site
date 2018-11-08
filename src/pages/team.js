@@ -47,6 +47,9 @@ export const TeamQuery = graphql`
           id
           name
           job_title
+          twitter
+          github
+          linkedin
           ...teamMember
         }
       }

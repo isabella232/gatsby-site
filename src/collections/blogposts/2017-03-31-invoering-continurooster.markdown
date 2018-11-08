@@ -7,7 +7,7 @@ permalink: /blog/invoering-continurooster/
 excerpt: elgentos gaat als een van de eerste bedrijven van Nederland over op continurooster
 author: Peter Jaap Blaakmeer
 ---
-## Invoering continurooster; het hoe en waarom
+
 *Een update voor onze klanten*
 
 De lange pauze tussen de middag in Nederland komt nog uit de tijd dat er tussen de middag warm werd gegeten. Inmiddels zijn er nog maar weinig gezinnen waar dit gebeurt. Tegenwoordig blijft een groot deel van de kinderen tussen de middag op school waardoor veel ouders in deze pauze hun brood op kantoor moeten eten. Daarnaast blijkt het steeds lastiger werknemers te vinden die een '9 to 5' mentaliteit hebben.
