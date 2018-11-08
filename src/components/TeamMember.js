@@ -6,7 +6,7 @@ class TeamMember extends React.Component {
     render() {
         const data = this.props.teamMember
         return (
-            <div className="col-4">
+            <div className="col-3">
                 <span className="image fit">
                     <Img fluid={data.image.childImageSharp.fluid} />
                 </span>
@@ -22,7 +22,7 @@ export const TeamMemberFragment = graphql`
    fragment teamMember on TeamCsv {
         image {
             childImageSharp {
-                fluid(maxWidth: 400) {
+                fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
             }
