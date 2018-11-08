@@ -143,7 +143,7 @@ I'll briefly touch upon configuring Kibana because there is a plethora of inform
 - Click Create
 - Go to the Discover tab and you should see potential logs coming in
 
-!['Kibana'](/assets/images/blogs/elk/kibana.jpeg)
+!['Kibana'](../../assets/images/blogs/elk/kibana.jpeg)
 
 ## Troubleshooting
 

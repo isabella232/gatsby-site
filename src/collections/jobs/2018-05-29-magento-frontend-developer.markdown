@@ -4,7 +4,7 @@ title:  "Magento frontend developer"
 intro: "Met ons weg naar PWA met Magento 2?"
 date:   2018-05-29 09:13:37 +0100
 categories: magento
-permalink: /vacatures/magento-frontend-developer/
+slug: /vacatures/magento-frontend-developer/
 author: Wouter Steenmeijer
 tags: html css javascript react magento1 magento2 sass less lint gulp svg semantiek pwa
 ---

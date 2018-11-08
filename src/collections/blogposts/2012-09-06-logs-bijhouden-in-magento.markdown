@@ -15,17 +15,17 @@ In deze map in de Magento root komen de standaard log bestanden. De standaard lo
 
 Exceptions worden door Magento vaak weergegeven in het bekende en gevreesde Magento foutmeldingenscherm;
 
-![Exception](/assets/images/blogs/magento-logging/1-exception.png "Exception")
+![Exception](../../assets/images/blogs/magento-logging/1-exception.png "Exception")
 
 In dit geval heeft de ontwikkelaar het weergeven van een foutmelding uitgeschakeld, iets dat op elke productieserver zo ingesteld zou moeten zijn. Op het moment dat dit niet is uitgeschakeld, bijvoorbeeld op een ontwikkelomgeving, ziet het scherm er bijvoorbeeld zo uit;
 
-![Exception](/assets/images/blogs/magento-logging/2-exception-with-trace.png "Exception")
+![Exception](../../assets/images/blogs/magento-logging/2-exception-with-trace.png "Exception")
 
 Dit valt in te schakelen door het bestand errors/local.xml.sample te kopieren naar errors/local.xml.
 
 Wat veel ontwikkelaars echter niet weten is dat Magento ook de mogelijkheid biedt om bezoekers die tegen een dergelijk scherm aan lopen de mogelijkheid te geven om direct contact op te nemen met de webshopeigenaar c.q. de webshop ontwikkelaar, zoals je hier kan zien;
 
-![Exception](/assets/images/blogs/magento-logging/3-exception-contact.png "Exception")
+![Exception](../../assets/images/blogs/magento-logging/3-exception-contact.png "Exception")
 
 Deze manier oogt meteen een stuk vriendelijker voor de bezoeker. Je bent echter nog wel afhankelijk van de gebruiker om de fout te melden, of je moet zelf regelmatig de logs in de gaten houden. Om dit te vergemakkelijken kan je error mailing, Graylog2 of Codebase Exceptions gebruiken (zie verderop).
 
@@ -40,7 +40,7 @@ Als je veel webshops in je beheer hebt waar meerdere ontwikkelaars mee bezig zij
 #### Graylog2
 Graylog2 is een open source tool die je op je eigen server kan installeren. Je kunt hiermee gemakkelijk web-based inzage krijgen in allerlei logs die je naar Graylog2 stuurt. Hier is een screenshot van Greylog2;
 
-![Graylog2](/assets/images/blogs/magento-logging/4-graylog2.png "Graylog2")
+![Graylog2](../../assets/images/blogs/magento-logging/4-graylog2.png "Graylog2")
 
 MGT-commerce heeft een uitstekende extensie geschreven om Magento logs naar Graylog2 weg te schrijven; How to manage your Magento logs with Graylog2
 
@@ -53,11 +53,11 @@ Sinds een paar dagen heeft aTech een functie in Codebase toegevoegd die een deel
 
 Na het installeren van deze extensie zal een exception als volgt in Codebase terecht komen;
 
-![Codebase](/assets/images/blogs/magento-logging/5-codebase.png "Codebase")
+![Codebase](../../assets/images/blogs/magento-logging/5-codebase.png "Codebase")
 
 Als je op de naam van de exception klikt krijg je een uitgebreide beschrijving en de mogelijkheid om er direct een ticket van te maken;
 
-![Codebase](/assets/images/blogs/magento-logging/6-codebase-php-error.png "Codebase")
+![Codebase](../../assets/images/blogs/magento-logging/6-codebase-php-error.png "Codebase")
 
 Dit helpt ons in het stroomlijnen van het oppikken van deze meldingen zodat we onze klanten zo snel mogelijk kunnen bijstaan in het geval van problemen met de shops.
 

@@ -4,6 +4,7 @@ import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
+import BannerLanding from "../components/BannerLanding";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,39 +20,47 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
+          <BannerLanding title={post.frontmatter.title} content="Blog" />
+          <div id="main" className="alt">
+              <section id="one">
+                  <div className="inner">
+                      <div className="box alt">
+                            <p>
+                              {post.frontmatter.date} - {post.fields.readingTime.text}
+                            </p>
+                            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                            <hr />
 
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          <li>
-            {
-              previous &&
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            }
-          </li>
-          <li>
-            {
-              next &&
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            }
-          </li>
-        </ul>
+                            <ul
+                              style={{
+                                display: 'flex',
+                                flexWrap: 'wrap',
+                                justifyContent: 'space-between',
+                                listStyle: 'none',
+                                padding: 0,
+                              }}
+                            >
+                              <li>
+                                {
+                                  previous &&
+                                  <Link to={previous.fields.slug} rel="prev">
+                                    ← {previous.frontmatter.title}
+                                  </Link>
+                                }
+                              </li>
+                              <li>
+                                {
+                                  next &&
+                                  <Link to={next.fields.slug} rel="next">
+                                    {next.frontmatter.title} →
+                                  </Link>
+                                }
+                              </li>
+                            </ul>
+                          </div>
+                  </div>
+              </section>
+          </div>
       </Layout>
     )
   }
@@ -78,7 +87,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "D MMMM YYYY", locale: "nl")
       }
     }
   }

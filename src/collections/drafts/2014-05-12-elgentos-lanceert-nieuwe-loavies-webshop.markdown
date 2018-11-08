@@ -3,7 +3,7 @@ layout: post
 title:  "elgentos lanceert nieuwe Loavies webshop"
 date:   2014-05-12 17:00:03 +0100
 categories: magento
-permalink: /elgentos-lanceert-nieuwe-loavies-webshop/
+slug: /elgentos-lanceert-nieuwe-loavies-webshop/
 author: Peter Jaap Blaakmeer
 ---
 **Met passie voor mode verkoopt [Loavies](https://www.loavies.com/) sinds 2 jaar kleding voor meiden tussen de 16 en 25 jaar op Loavies.com. Loavies is een van de grootste fashion webshops in dit segment in Nederland en hun ambities reiken ver daarbuiten!**

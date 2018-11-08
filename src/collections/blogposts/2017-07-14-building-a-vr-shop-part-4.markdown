@@ -20,7 +20,7 @@ We have decided to publish the VR project on GitHub. You can visit the GitHub re
 
 The project consists out of two parts: the VR application and the Magento module. You simply install the Magento extension in your webshop. The VR application can be located anywhere else and can be configured by editing the config.js file.
 
-!['Github page'](/assets/images/blogs/vrshop4/github.png)
+!['Github page'](../../assets/images/blogs/vrshop4/github.png)
 
 #### Future
 Virtual Reality is still in its infancy, so it might take a couple of years for the technique to become mainstream. We really think VR has a lot of potential and we can't wait to see where it will be in a few years. We'll keep an eye on it!

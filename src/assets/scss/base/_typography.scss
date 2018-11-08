@@ -36,6 +36,10 @@
 		color: inherit;
 		text-decoration: none;
 
+		&.gatsby-resp-image-link {
+			border-bottom-color:transparent;
+		}
+
 		&:hover {
 			border-bottom-color: transparent;
 			color: _palette(highlight) !important;

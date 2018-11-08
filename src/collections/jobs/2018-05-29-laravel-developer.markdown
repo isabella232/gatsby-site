@@ -4,7 +4,7 @@ title:  "Laravel PHP developer"
 intro: "Schrijf jij toffe code in Laravel en heb je kennis van tools als PHP CodeSniffer, Mess Detector, php7cc, etc."
 date:   2018-05-29 09:13:37 +0100
 categories: laravel
-permalink: /vacatures/laravel-php-developer/
+slug: /vacatures/laravel-php-developer/
 author: Peter Jaap Blaakmeer
 tags: laravel lumen botman gitlab kubernetes algolia git percona docker
 ---

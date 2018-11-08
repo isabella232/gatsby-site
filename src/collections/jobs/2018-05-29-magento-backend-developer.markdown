@@ -4,7 +4,7 @@ title:  "Magento PHP backend developer"
 intro: "Wij zijn lekker bezig met Magento 2, heb jij reeds ervaring met Magento, kom op dan!"
 date:   2018-05-29 09:13:37 +0100
 categories: magento
-permalink: /vacatures/magento-php-backend-developer/
+slug: /vacatures/magento-php-backend-developer/
 author: Peter Jaap Blaakmeer
 tags: magento2 magento1 gitlab laravel kubernetes algolia git percona docker
 ---

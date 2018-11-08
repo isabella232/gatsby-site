@@ -1,7 +1,7 @@
 ---
 layout: legal
 title: Verwerkersovereenkomst
-permalink: /legal/verwerkersovereenkomst/
+slug: /legal/verwerkersovereenkomst/
 intro: ""
 published: 0
 

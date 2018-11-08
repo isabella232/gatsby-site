@@ -1,7 +1,7 @@
 ---
 layout: legal
 title: Algemene Voorwaarden
-permalink: /legal/algemene-voorwaarden/
+slug: /legal/algemene-voorwaarden/
 intro: "Op al onze aanbiedingen en leveringen zijn onze Algemene voorwaarden van toepassing."
 document: "docs/algemene-voorwaarden.pdf"
 published: 1

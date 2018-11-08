@@ -23,14 +23,15 @@ Nowadays, there are even mobile applications that allows you to make 3d scans of
 #### Photogrammetry in practise
 Let's say we want to the following shoe to the 3d world, what would this process look like?
 
-|  !['Shoe'](/assets/images/blogs/vrshop3/shoe.png) |  !['Make photos of product'](/assets/images/blogs/vrshop3/makephotos.png) |
+|  !['Shoe'](../../assets/images/blogs/vrshop3/shoe.png) |  !['Make photos of product'](../../assets/images/blogs/vrshop3/makephotos.png) |
+|---|---|
 |  The shoe we want to convert |  We are using a turntable to easily rotate the product |
 
 
 
 First of all, we'd need to take pictures from all angles. We are using an IKEA turntable called [Lazy Susan (SNUDDA)](http://www.ikea.com/nl/nl/catalog/products/90074483/) to easily rotate the product without changing its position. The more photos you make, the better the end result will look. For this shoe, we made around 40 photos. After that, we submitted the photos to the Recap cloud service and we had to wait for around 30 minutes. When this process was done, we could download the 3d model. The result (with textures disabled) looked like this:
 
-!['Result 3d model'](/assets/images/blogs/vrshop3/resultrecap.png)
+!['Result 3d model'](../../assets/images/blogs/vrshop3/resultrecap.png)
 
 A 3d model consist out of faces. A face is one triangle or rectangle in a 3d model. The total amount of faces in this 3d model was **297.313**. That is a huge amount of faces for a simple object and it will definitely have a big impact on the performance of the VR application. It's time to enter the optimisation phase.
 
@@ -45,14 +46,14 @@ The goal of the optimisation phase is to reduce the amount of faces to an accept
 
 After this process, we succesfully managed to reduce the amount of faces to **6941** while mostly retaining the original details. As you can see in the pictures below, this is quite a difference. The model itself also looks a lot cleaner. Now the 3d model is ready to use in the VR application.
 
-|  !['New 3d model'](/assets/images/blogs/vrshop3/shoe_lowpoly.png) |  !['Difference in faces](/assets/images/blogs/vrshop3/shoe_stats.png) |
+|  !['New 3d model'](../../assets/images/blogs/vrshop3/shoe_lowpoly.png) |  !['Difference in faces](../../assets/images/blogs/vrshop3/shoe_stats.png) |
 |---|---|
 |  The optimized 3d model | Comparison amount of faces original and optimized 3d model |
 
 #### Disadvantages of this workflow
 Unfortunately, photogrammetry isn't the  always the best choice; it has some downsides as well. The photogrammetry software can't really handle objects that contain few details or has a repetitive texture. For example, we tried to convert our ElePHPant to a 3d model, but the plush doesn't have a detailed texture. This resulted in an interesting 3d model.
 
-|  !['New 3d model'](/assets/images/blogs/vrshop3/elephant1.png) |  !['Difference in faces](/assets/images/blogs/vrshop3/elephant2.png) |
+|  !['New 3d model'](../../assets/images/blogs/vrshop3/elephant1.png) |  !['Difference in faces](../../assets/images/blogs/vrshop3/elephant2.png) |
 |---|---|
 |  Our happy ElePHPant plush | Our - not so - happy ElePHPant plush |
 

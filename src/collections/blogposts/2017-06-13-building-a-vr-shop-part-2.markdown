@@ -22,7 +22,7 @@ Since we want to support desktop VR headsets as well as mobile VR headsets, we n
  
 With this in mind, we have come up with the following concept art for our VR world template.
 
-!['Concept VR template'](/assets/images/blogs/vrshop2/concept.png)
+!['Concept VR template'](../../assets/images/blogs/vrshop2/concept.png)
 
 We believe this template provides a nice balance between the mobile and desktop VR experience. The world is adaptive, in the sense that it will adapt itself to the unique features of the active VR device. Let's break this down.
 
@@ -40,7 +40,7 @@ On mobile devices, the product interaction is more limited. The product will be 
 
 | Mobile        | Desktop       |
 | ------------- |:-------------:|
-| !['Concept VR template'](/assets/images/blogs/vrshop2/sofa.gif)      | !['Concept VR template'](/assets/images/blogs/vrshop2/keyboard.gif) |
+| !['Concept VR template'](../../assets/images/blogs/vrshop2/sofa.gif)      | !['Concept VR template'](../../assets/images/blogs/vrshop2/keyboard.gif) |
 
 #### Adaptive UI interaction
 
@@ -51,7 +51,7 @@ On the desktop, things are a bit easier to control. You simply point your motion
 
 | Mobile        | Desktop       |
 | ------------- |:-------------:|
-| !['Concept VR template'](/assets/images/blogs/vrshop2/inputmobile.gif)      | !['Concept VR template'](/assets/images/blogs/vrshop2/inputvive.gif) |
+| !['Concept VR template'](../../assets/images/blogs/vrshop2/inputmobile.gif)      | !['Concept VR template'](../../assets/images/blogs/vrshop2/inputvive.gif) |
 
 
 #### Personalise your world
@@ -62,13 +62,13 @@ Besides the creation of VR worlds, we also think there is a lot of potential in 
 
 In order to really personalise your 3D world, you can upload promotion banners in the Magento dashboard. This will apply the images to certain places in the world. For example, we have uploaded an elgentos logo which is being displayed underneath a zeppelin.
 
-!['Concept VR template'](/assets/images/blogs/vrshop2/zeppelin.png)
+!['Concept VR template'](../../assets/images/blogs/vrshop2/zeppelin.png)
 
 #### Next topic: Photogrammetry
 
 The next big challenge is to bring real world products into the 3D world. Let’s say that we wanted to bring the following shoe to the VR world. How would we approach this?
 
-!['Concept VR template'](/assets/images/blogs/vrshop2/shoephoto.jpg)
+!['Concept VR template'](../../assets/images/blogs/vrshop2/shoephoto.jpg)
 
 In the next blogpost we'll dive into it!
 

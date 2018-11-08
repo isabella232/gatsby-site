@@ -29,7 +29,7 @@ The biggest disadvantage of WebVR right now is that it is still is an experiment
 
 For VR Webshops, we think WebVR is a great choice. The end user doesn't have to download anything; they can jump right into the VR world. It is only a matter of time before WebVR reaches a stable state.
 
-!['Web VR'](/assets/images/blogs/vrshop/webvr.jpg)
+!['Web VR'](../../assets/images/blogs/vrshop/webvr.jpg)
 
 #### A-frame
 A-Frame is an open-source web framework for building virtual reality experiences. This framework makes WebVR content creation an absolute breeze. A-Frame lets you build VR application with just HTML, while having unlimited access to JavaScript, three.js and all existing Web API's. With only a few lines of code, you can create a VR-ready world in which you can walk around:
@@ -50,7 +50,7 @@ A-Frame is an open-source web framework for building virtual reality experiences
 </html>
 ```
 
-!['A-Frame example'](/assets/images/blogs/vrshop/aframe-example.png)
+!['A-Frame example'](../../assets/images/blogs/vrshop/aframe-example.png)
 
 A-Frame provides all the building blocks you need to create a VR application. There are many built-in components that you can use, such as:
 
@@ -66,7 +66,7 @@ We have experimented with WebVR and A-frame for the past few weeks. We have tink
 
 The first shopping environment is starting to get some shape. You can examine shoes in a space city while a huge zeppelin flies around you!
 
-!['VR Shop Wip'](/assets/images/blogs/vrshop/vrshop-wip.png)
+!['VR Shop Wip'](../../assets/images/blogs/vrshop/vrshop-wip.png)
 
 #### Next topic: Building an interactive VR World
 We have some exciting topics left for this blog series. In the next part we'll take a look at **creating an interactive VR world**. For example, the user should be able to walk around, pick up products and navigate through menus. There are some really fun possibilities but also some challenges regarding VR interaction, so we will definitely talk about that.

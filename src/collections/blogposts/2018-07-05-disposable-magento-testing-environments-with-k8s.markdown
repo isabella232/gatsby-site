@@ -11,7 +11,7 @@ author: Peter Jaap Blaakmeer
 
 In this blog we'll be talking about how we set up disposable testing environments ('Review Apps' in Gitlab terminology) using amongst other tools Gitlab, Docker, Google Cloud Platform (GCP) and Kubernetes (k8s). We are now using the disposable testing environments in our daily flow, which enables us to push out a certain branch, tag or specific commit to a testing environment that is automatically built up on push and tore down on merge, together with a database and all media files.
 
-!['Gitlab+Kubernetes+Docker'](/assets/images/blogs/k8s/gitlab-k8s-docker.png){: .center-image }
+!['Gitlab+Kubernetes+Docker'](../../assets/images/blogs/k8s/gitlab-k8s-docker.png)
 
 #### Retrospective
 
@@ -66,7 +66,7 @@ The upside; it is now very easy to create this cluster and use it as a runner fo
 
 This is what we're aiming at;
 
-{% lightbox assets/images/blogs/k8s/pipeline-success.png --thumb="assets/images/blogs/k8s/pipeline-success.png" --data="k8s-pipeline-success" --title="Succesful Review App pipeline" --alt="Succesful Review App pipeline" %}
+!['Succesful Review App pipeline'](../../assets/images/blogs/k8s/pipeline-success.png)
 
 The main file we're using to set up Review Apps is `.gitlab-ci.yml`. We've already been using this to deploy our shops to our production and staging servers but we need to a add a bunch of commands to deploy to our disposable environments.
 
@@ -123,7 +123,7 @@ In these jobs, we make use of a number of environment variables that are either 
 
 Because we use stripped database dumps without personal information, the admin users are also stripped. In our Deployer recipe, we generate a random user/pass combination and save those values. We later on use the Slack recipe to pull those variables and pass them on to a shared channel with our client, who can then use the credentials to log in to the admin.
 
-{% lightbox assets/images/blogs/k8s/deployer-slack.png --thumb="assets/images/blogs/k8s/deployer-slack.png" --data="k8s-deployer-slack" --title="Deployer Slack notification with auto-generated user/pass combo" --alt="Deployer Slack notification with auto-generated user/pass combo" %}
+!['Deployer Slack notification with auto-generated user/pass combo'](../../assets/images/blogs/k8s/deployer-slack.png)
 
 ### File templates
 
