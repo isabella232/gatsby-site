@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import Banner from '../components/Banner'
+import BannerHome from '../components/BannerHome'
+import FooterCta from '../components/FooterCta'
+import ArticleTile from '../components/ArticleTile'
 
 import elgentos3 from '../assets/images/splash/elgentos-3.jpg'
 import elgentos4 from '../assets/images/splash/elgentos-4.jpg'
@@ -25,64 +26,18 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <Banner />
+                <BannerHome title="Experts in Magento bouw" content="focus op Magento 2 backend gecombineerd met Laravel <br />gebaseerde microservices en React frontends" cta="Laat zien dan" />
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${elgentos15})`}}>
-                            <header className="major">
-                                <h3>Klantcases</h3>
-                                <p>Mooie projecten verdienen aandacht</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${elgentos6})`}}>
-                            <header className="major">
-                                <h3>Team</h3>
-                                <p>Techneuten met passie voor code</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${elgentos4})`}}>
-                            <header className="major">
-                                <h3>Magento 2</h3>
-                                <p>Waarom overstappen loont</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${elgentos10})`}}>
-                            <header className="major">
-                                <h3>Partners</h3>
-                                <p>Gave projecten doen we niet alleen</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${elgentos22})`}}>
-                            <header className="major">
-                                <h3>Vacatures</h3>
-                                <p>Wij zoeken versterking!</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${elgentos3})`}}>
-                            <header className="major">
-                                <h3>Contact</h3>
-                                <p>Koffie?</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        <ArticleTile title="Klantcases" content="Mooie projecten verdienen aandacht" link="/klantcases" background={elgentos15}  />
+                        <ArticleTile title="Team" content="Techneuten met passie voor code" link="/team" background={elgentos6}  />
+                        <ArticleTile title="Magento 2" content="Waarom overstappen loont" link="/magento2" background={elgentos4}  />
+                        <ArticleTile title="Partners" content="Gave projecten doen we niet alleen" link="/partners" background={elgentos10}  />
+                        <ArticleTile title="Vacatures" content="Wij zoeken versterking!" link="/vacatures" background={elgentos22}  />
+                        <ArticleTile title="Contact" content="Koffie?" link="/contact" background={elgentos3}  />
                     </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Magento 2 webshops</h2>
-                            </header>
-                            <p>Wil je een magento webshop beginnen of je bestaande magento webshop optimaliseren? elgentos is gespecialiseerd in het begeleiden van het 'denkproces over de webshops', het ontwerpen-, het ontwikkelen en onderhouden van webshops. Mooie, stabiele en goed converterende webshops bouwen, dat is het uitgangspunt van waaruit wij werken. We zijn in 2010 begonnen met webshops bouwen op Magento en dit is sindsdien onze primaire focus gebleven.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Waarom Magento 2?</Link></li>
-                            </ul>
-                        </div>
-                    </section>
+                    <FooterCta title="Magento 2 webshops" content="Wil je een magento webshop beginnen of je bestaande magento webshop optimaliseren? elgentos is gespecialiseerd in het begeleiden van het 'denkproces over de webshops', het ontwerpen-, het ontwikkelen en onderhouden van webshops. Mooie, stabiele en goed converterende webshops bouwen, dat is het uitgangspunt van waaruit wij werken. We zijn in 2010 begonnen met webshops bouwen op Magento en dit is sindsdien onze primaire focus gebleven." link="/magento2" cta="Waarom Magento 2?" />
                 </div>
 
             </Layout>
