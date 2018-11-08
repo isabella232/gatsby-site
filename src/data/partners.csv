@@ -1,7 +1,4 @@
-title,image_url
-Adyen,partner-adyen.png
-Byte,partner-byte.png
-Cargowiz,partner-cargowiz.png
-Copernica,partner-copernica.png
-Sherpaan,partner-sherpaan.png
-Sooqr,partner-sooqr_social.png
+name,image
+Adyen,../assets/images/partners/partner-adyen.png
+Byte,../assets/images/partners/partner-byte.png
+Sherpaan,../assets/images/partners/partner-sherpaan.png
