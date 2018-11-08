@@ -20,6 +20,23 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    `gatsby-transformer-csv`,
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            name: `data`,
+            path: `${__dirname}/src/data/`,
+        },
+    },
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            name: `images`,
+            path: `${__dirname}/src/assets/images/`,
+        },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 }

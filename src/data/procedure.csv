@@ -1,0 +1,5 @@
+title,icon,details
+wireframing,fa-lightbulb-o,"De eerste stap is het uitdenken van de globale functionaliteiten en structuur van de webwinkel. In deze stap wordt een fundering gelegd voor het proces."
+"design & templating",fa-paint-brush,"Na het leggen van de fundering wordt een design uitgewerkt. Ook worden in deze fase de templates voor Magento gebouwd."
+finetuning,fa-wrench,"Met de vorige stap voltooid worden de producten geïmporteerd. Dit wordt gecombineerd met het leggen van koppelingen met backend systemen. De webwinkel is nu bijna klaar voor gebruik."
+"imports & koppelingen",fa-file-text-o,"Tijdens finetuning worden de laatste plooien gladgestreken om de webshop te laten functioneren naar de kwaliteitseisen van elgentos."
