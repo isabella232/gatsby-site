@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Potentiële Magento killers on de loep: Sellvana"
 date:   2014-02-20
 categories: magento
@@ -19,7 +19,7 @@ Sellvana opent groot met de belofte om het plezier in e-commerce terug te brenge
 ### Verrassend verfrissend (en snel)
 Met behulp van Bootstrap 3, heeft Sellvana standaard een responsive frond- en back-end. Daar waar Magento haar default interface voelt als een standaard template die snel vervangen moet worden, kan de Sellvana front-end het prima op eigen houtje redden.
 
-Wat vaak te zien is met nieuwe e-commerce platformen die zich richten op de monopoly-positie van Magento (bijvoorbeeld [Sylius](https://elgentos.nl/blog/potentiele-magento-killers-onder-de-loep-sylius) of [Forward](https://www.elgentos.nl/blog/potentiele-magento-killers-onder-de-loep-forward)), is dat ze veel sterke punten hebben maar vaak nog niet volwassen zijn of bepaalde standaard dingen nog missen. Met Sellvana is dit niet het geval. Natuurlijk heeft Magento door haar vele jaren een grote voorsprong, maar met zelfs iDeal integratie nu al ingebakken, is het volkomen mogelijk om nu een webshop met Sellvana te beginnen.
+Wat vaak te zien is met nieuwe e-commerce platformen die zich richten op de monopoly-positie van Magento (bijvoorbeeld [Sylius](/blog/potentiele-magento-killers-onder-de-loep-sylius) of [Forward](/blog/potentiele-magento-killers-onder-de-loep-forward)), is dat ze veel sterke punten hebben maar vaak nog niet volwassen zijn of bepaalde standaard dingen nog missen. Met Sellvana is dit niet het geval. Natuurlijk heeft Magento door haar vele jaren een grote voorsprong, maar met zelfs iDeal integratie nu al ingebakken, is het volkomen mogelijk om nu een webshop met Sellvana te beginnen.
 
 Voor ontwikkelaars [belooft Sellvana](https://www.sellvana.com/blog/soon-you-will-enjoy-e-commerce-why) modulariteit, sterke performance, gemak van uitbreiding en een zwakke leercurve. Qua performance kan gezegd worden dat op dezelfde machine Sellvana al stukken sneller aanvoelt terwijl de gemiddelde gebruiker niet teleurgesteld zal zijn qua functionaliteit - integendeel.
 

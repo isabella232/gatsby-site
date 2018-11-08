@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Magento 2 & PSR’s; now what?"
 date:   2017-03-08
 categories: magento

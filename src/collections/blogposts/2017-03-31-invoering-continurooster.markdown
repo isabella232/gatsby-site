@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Invoering continurooster"
 date:   2017-03-31
 categories: magento

@@ -1,10 +1,10 @@
 ---
-layout: job
+type: job
 title:  "Laravel PHP developer"
 intro: "Schrijf jij toffe code in Laravel en heb je kennis van tools als PHP CodeSniffer, Mess Detector, php7cc, etc."
 date:   2018-05-29 09:13:37 +0100
 categories: laravel
-slug: /vacatures/laravel-php-developer/
+permalink: /vacatures/laravel-php-developer/
 author: Peter Jaap Blaakmeer
 tags: laravel lumen botman gitlab kubernetes algolia git percona docker
 ---
@@ -39,7 +39,7 @@ Ons klantprofiel is grootzakelijk en lokaal (Noord Nederland) gericht, en we bed
 
 Een paar andere leuke perks van bij ons werken zijn bijvoorbeeld waardige FIFA-tegenstanders, een HTC Vive, een voetbaltafel, koffie-aficionados, een arcade kast, interne hackathons & LAN parties en regelmatige vrijdagmiddagborrels met Demo Friday waarbij collega's vertellen over hun recente projecten. Ook gaan we minimaal één keer per jaar met het hele team naar een conferentie om kennis op te doen. Daarnaast organiseren en bezoeken we regelmatig Meetups over onderwerpen die ons nauw aan het hart liggen zoals de [Laravel Meetup Groningen](https://www.meetup.com/Laravel-Meetup-Groningen/) en de [Magento User Group Groningen](https://www.meetup.com/Magento-User-Group-Groningen/).
 
-Ben je geïnteresseerd in ons development proces? We hebben hier uitgebreid over geblogd; [Our development process uncovered](http://elgentos.nl/blog/our-development-process-uncovered/).
+Ben je geïnteresseerd in ons development proces? We hebben hier uitgebreid over geblogd; [Our development process uncovered](/blog/our-development-process-uncovered/).
 
 ### Wat wij zoeken
 

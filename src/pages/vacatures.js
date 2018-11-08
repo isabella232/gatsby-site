@@ -5,14 +5,14 @@ import Layout from '../components/layout'
 import get from 'lodash/get'
 import BannerLanding from "../components/BannerLanding";
 
-class BlogIndex extends React.Component {
+class JobIndex extends React.Component {
     render() {
         const siteTitle = get(this, 'props.data.site.siteMetadata.title')
         const siteDescription = get(
             this,
             'props.data.site.siteMetadata.description'
         )
-        const posts = get(this, 'props.data.allMarkdownRemark.edges')
+        const jobs = get(this, 'props.data.allMarkdownRemark.edges')
 
         return (
             <Layout location={this.props.location}>
@@ -21,14 +21,14 @@ class BlogIndex extends React.Component {
                     meta={[{ name: 'description', content: siteDescription }]}
                     title={siteTitle}
                 />
-                <BannerLanding title="Blog" content="" />
+                <BannerLanding title="Vacatures" content="" />
 
                 <div id="main" className="alt">
                     <section id="one">
                         <div className="inner">
                             <div className="box alt">
                                 <div className="grid-wrapper">
-                                    {posts.map(({ node }) => {
+                                    {jobs.map(({ node }) => {
                                         const title = get(node, 'frontmatter.title') || node.fields.slug
                                         return (
                                             <div key={node.fields.slug} className="col-6">
@@ -37,7 +37,6 @@ class BlogIndex extends React.Component {
                                                         {title}
                                                     </Link>
                                                 </h3>
-                                                <small>{node.frontmatter.date} - {node.fields.readingTime.text}</small>
                                                 <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                                             </div>
                                         )
@@ -52,7 +51,7 @@ class BlogIndex extends React.Component {
     }
 }
 
-export default BlogIndex
+export default JobIndex
 
 export const pageQuery = graphql`
   query {
@@ -63,7 +62,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-        filter: { frontmatter: { type: { eq: "post" } } },
+        filter: { frontmatter: { type: { eq: "job" } } },
         sort: { fields: [frontmatter___date], order: DESC }
         ) {
       edges {
@@ -71,12 +70,8 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
-            readingTime {
-              text
-            }
           }
           frontmatter {
-            date(formatString: "D MMMM YYYY", locale: "nl")
             title
             permalink
           }

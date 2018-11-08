@@ -1,12 +1,12 @@
 ---
-layout: post
+type: post
 title:  "Mate - command line tool voor Magento"
 date:   2012-09-04
 categories: magento
 permalink: /blog/mate-magento-command-line-tool/
 author: Peter Jaap Blaakmeer
 ---
-*Let op; vlak na het uitkomen van `mate` heeft het Duitse bedrijf Netz98 hun `magerun` ontwikkeld. Dit is een soortgelijke tool die ondertussen door de gehele community gebruikt wordt, zie ook [onze eigen blog over magerun](http://elgentos.nl/magento-shop-via-de-command-line/). Wij raden dus ook sterk aan [magerun](http://www.magerun.net) te gebruiken.*
+*Let op; vlak na het uitkomen van `mate` heeft het Duitse bedrijf Netz98 hun `magerun` ontwikkeld. Dit is een soortgelijke tool die ondertussen door de gehele community gebruikt wordt, zie ook [onze eigen blog over magerun](/magento-shop-via-de-command-line/). Wij raden dus ook sterk aan [magerun](http://www.magerun.net) te gebruiken.*
 
 ### Magento command line tool ‘mate’
 

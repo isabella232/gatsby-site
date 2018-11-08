@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Logging Magento logs with the ELK stack"
 date:   2017-10-22
 categories: magento

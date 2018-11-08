@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Magento Statistics"
 date:   2012-12-05
 categories: magento

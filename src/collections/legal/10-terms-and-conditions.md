@@ -1,5 +1,5 @@
 ---
-layout: legal
+type: legal
 title: Algemene Voorwaarden
 slug: /legal/algemene-voorwaarden/
 intro: "Op al onze aanbiedingen en leveringen zijn onze Algemene voorwaarden van toepassing."

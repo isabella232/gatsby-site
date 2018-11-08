@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Nieuwe shops Mastertools"
 date:   2013-11-15 17:00:03 +0100
 categories: magento

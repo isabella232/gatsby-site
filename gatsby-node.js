@@ -8,24 +8,28 @@ exports.createPages = ({ graphql, actions }) => {
 
     return new Promise((resolve, reject) => {
         const blogPost = path.resolve('./src/templates/blog-post.js')
+        const jobPost = path.resolve('./src/templates/job-post.js')
         resolve(
             graphql(
                 `
-          {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
-              edges {
-                node {
-                  fields {
-                    slug
+                  {
+                    allMarkdownRemark(
+                        sort: { fields: [frontmatter___date], order: DESC }
+                    ) {
+                      edges {
+                        node {
+                          fields {
+                            slug
+                          }
+                          frontmatter {
+                            title
+                            permalink
+                            type
+                          }
+                        }
+                      }
+                    }
                   }
-                  frontmatter {
-                    title
-                    permalink
-                  }
-                }
-              }
-            }
-          }
         `
             ).then(result => {
                 if (result.errors) {
@@ -42,7 +46,7 @@ exports.createPages = ({ graphql, actions }) => {
 
                     createPage({
                         path: post.node.frontmatter.permalink,
-                        component: blogPost,
+                        component: post.node.frontmatter.type === "blog" ? blogPost : jobPost,
                         context: {
                             slug: post.node.fields.slug,
                             previous,

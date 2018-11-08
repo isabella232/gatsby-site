@@ -4,9 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import elgentos39 from '../assets/images/splash/elgentos-39.jpg'
+import elgentos15 from '../assets/images/splash/elgentos-15.jpg'
+import elgentos17 from '../assets/images/splash/elgentos-17.jpg'
+import elgentos22 from '../assets/images/splash/elgentos-22.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -29,7 +30,7 @@ const Landing = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={elgentos39} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -45,7 +46,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={elgentos15} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -61,7 +62,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={elgentos17} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -77,7 +78,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={elgentos22} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">

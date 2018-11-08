@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Magento 2 Dutch language pack analysis"
 date:   2017-03-22
 categories: magento

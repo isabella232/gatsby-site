@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Composer & Magento 2"
 date: 2016-02-11
 categories: magento

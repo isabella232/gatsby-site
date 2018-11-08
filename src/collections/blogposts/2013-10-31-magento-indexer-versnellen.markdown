@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Magento indexer versnellen"
 date:   2016-02-11
 categories: magento

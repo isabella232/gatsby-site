@@ -1,10 +1,10 @@
 ---
-layout: job
+type: job
 title:  "Magento PHP backend developer"
 intro: "Wij zijn lekker bezig met Magento 2, heb jij reeds ervaring met Magento, kom op dan!"
 date:   2018-05-29 09:13:37 +0100
 categories: magento
-slug: /vacatures/magento-php-backend-developer/
+permalink: /vacatures/magento-php-backend-developer/
 author: Peter Jaap Blaakmeer
 tags: magento2 magento1 gitlab laravel kubernetes algolia git percona docker
 ---
@@ -35,9 +35,9 @@ Ons klantprofiel is grootzakelijk en lokaal (Noord Nederland) gericht, en we bed
 
 * Uitstekende contractvoorwaarden.
 
-Een paar andere leuke perks van bij ons werken zijn bijvoorbeeld waardige FIFA-tegenstanders, een HTC Vive, een voetbaltafel, koffie-aficionados, een arcade kast, interne hackathons & LAN parties en regelmatige vrijdagmiddagborrels met Demo Friday waarbij collega's vertellen over hun recente projecten. Ook gaan we minimaal één keer per jaar met het hele team naar een conferentie om kennis op te doen. Daarnaast organiseren en bezoeken we regelmatig Meetups over onderwerpen die ons nauw aan het hart liggen zoals de (Magento User Group Groningen)[https://www.meetup.com/Magento-User-Group-Groningen/] en de (Laravel Meetup Groningen)[https://www.meetup.com/Laravel-Meetup-Groningen/].
+Een paar andere leuke perks van bij ons werken zijn bijvoorbeeld waardige FIFA-tegenstanders, een HTC Vive, een voetbaltafel, koffie-aficionados, een arcade kast, interne hackathons & LAN parties en regelmatige vrijdagmiddagborrels met Demo Friday waarbij collega's vertellen over hun recente projecten. Ook gaan we minimaal één keer per jaar met het hele team naar een conferentie om kennis op te doen. Daarnaast organiseren en bezoeken we regelmatig Meetups over onderwerpen die ons nauw aan het hart liggen zoals de [Magento User Group Groningen](https://www.meetup.com/Magento-User-Group-Groningen/) en de [Laravel Meetup Groningen](https://www.meetup.com/Laravel-Meetup-Groningen/).
 
-Ben je geïnteresseerd in ons development proces? We hebben hier uitgebreid over geblogd; [Our development process uncovered](http://elgentos.nl/blog/our-development-process-uncovered/)
+Ben je geïnteresseerd in ons development proces? We hebben hier uitgebreid over geblogd; [Our development process uncovered](/blog/our-development-process-uncovered/)
 
 ### Wat wij zoeken
 

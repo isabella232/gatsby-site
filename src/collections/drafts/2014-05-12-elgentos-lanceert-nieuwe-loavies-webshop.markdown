@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "elgentos lanceert nieuwe Loavies webshop"
 date:   2014-05-12 17:00:03 +0100
 categories: magento

@@ -1,5 +1,5 @@
 ---
-layout: legal
+type: legal
 title: Verwerkersovereenkomst
 slug: /legal/verwerkersovereenkomst/
 intro: ""

@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Disposable Magento testing environments with Kubernetes"
 date:   2018-07-05
 categories: magento
@@ -100,24 +100,24 @@ In these jobs, we make use of a number of environment variables that are either 
 
 |Variable|Description|Can be set on group level?|
 |--- |--- |--- |
-|AWS_ACCESS_KEY_ID|Projects’ AWS credentials|No|
-|AWS_SECRET_ACCESS_KEY|Projects’ AWS credentials|No|
-|AWS_DEFAULT_REGION||Yes|
-|COMPOSER_AUTH|gitlab-ci composer key|No|
-|DO_ACCESS_TOKEN|Create access token per project at [DigitalOcean](https://cloud.digitalocean.com/settings/api/tokens)|Yes|
-|GCLOUD_MACHINE_TYPE|See [Google Cloud Machine Types](https://cloud.google.com/compute/docs/machine-types)|Yes|
-|GCLOUD_NUM_NODES|1 is fine for testing purposes|Yes|
-|GCLOUD_PROJECT_ID|Find project ID in [Gcloud console](https://console.cloud.google.com/)|Sometimes|
-|GCLOUD_SA_JSON|Create JSON file from [IAM](https://console.cloud.google.com/iam-admin/serviceaccounts/) (Actions > Create key) and paste contents here|Sometimes (dependent on GCLOUD_PROJECT_ID)|
-|GCLOUD_ZONE|See [Google Cloud Regions & Zones](https://cloud.google.com/compute/docs/regions-zones/)|Yes|
-|REVIEW_BACKEND_FRONTNAME|Your admin URL|Yes|
-|REVIEW_CRYPT_KEY|Per-project cryptkey|No|
-|REVIEW_DB_HOST|Your database host|Yes|
-|REVIEW_DB_NAME|Your database name|Yes|
-|REVIEW_DB_USER|Your database user|Yes|
-|REVIEW_DB_PASS|Do not set manually; it is random generated per Hypernode container and will be fetched from Hypernode’s .my.cnf.|No|
-|REVIEW_DB_PREFIX|Your database prefix|No|
-|SSH_PRIVATE_KEY|Project-specific deployment-only SSH key|Yes|
+|`AWS_ACCESS_KEY_ID`|Projects’ AWS credentials|No|
+|`AWS_SECRET_ACCESS_KEY`|Projects’ AWS credentials|No|
+|`AWS_DEFAULT_REGION`||Yes|
+|`COMPOSER_AUTH`|gitlab-ci composer key|No|
+|`DO_ACCESS_TOKEN`|Create access token per project at [DigitalOcean](https://cloud.digitalocean.com/settings/api/tokens)|Yes|
+|`GCLOUD_MACHINE_TYPE`|See [Google Cloud Machine Types](https://cloud.google.com/compute/docs/machine-types)|Yes|
+|`GCLOUD_NUM_NODES`|1 is fine for testing purposes|Yes|
+|`GCLOUD_PROJECT_ID`|Find project ID in [Gcloud console](https://console.cloud.google.com/)|Sometimes|
+|`GCLOUD_SA_JSON`|Create JSON file from [IAM](https://console.cloud.google.com/iam-admin/serviceaccounts/) (Actions > Create key) and paste contents here|Sometimes (dependent on GCLOUD_PROJECT_ID)|
+|`GCLOUD_ZONE`|See [Google Cloud Regions & Zones](https://cloud.google.com/compute/docs/regions-zones/)|Yes|
+|`REVIEW_BACKEND_FRONTNAME`|Your admin URL|Yes|
+|`REVIEW_CRYPT_KEY`|Per-project cryptkey|No|
+|`REVIEW_DB_HOST`|Your database host|Yes|
+|`REVIEW_DB_NAME`|Your database name|Yes|
+|`REVIEW_DB_USER`|Your database user|Yes|
+|`REVIEW_DB_PASS`|Do not set manually; it is random generated per Hypernode container and will be fetched from Hypernode’s .my.cnf.|No|
+|`REVIEW_DB_PREFIX`|Your database prefix|No|
+|`SSH_PRIVATE_KEY`|Project-specific deployment-only SSH key|Yes|
 
 ### Slack notification
 

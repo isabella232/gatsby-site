@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Building a VR shop - Part 4: Use the VR module in your Magento shop"
 date:   2017-07-14
 categories: magento

@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
 title:  "MageUnconference 2017 Cologne"
-date:   2017-03-09 09:40:03 +0100
+date:   2017-03-09
 categories: magento
 permalink: /blog/mageunconference-2017-cologne/
 image: /assets/images/blogs/unconference/mageunconference-2017-elgentos-team.jpg

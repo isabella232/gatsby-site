@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Potentiële Magento killers onder de loep: Forward"
 date:   2013-11-29
 categories: magento

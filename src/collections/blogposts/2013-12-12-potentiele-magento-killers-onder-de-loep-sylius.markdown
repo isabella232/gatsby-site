@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Potentiële Magento killers onder de loep: Sylius"
 date:   2013-12-12
 categories: magento

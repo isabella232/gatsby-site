@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Beheer je Magento shop via de command line - n98-magerun"
 date:   2014-02-20
 categories: magento

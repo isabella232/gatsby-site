@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Potentiële Magento killers onder de loep: django SHOP"
 date:   2013-12-21
 categories: magento

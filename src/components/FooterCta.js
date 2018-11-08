@@ -8,9 +8,9 @@ const FooterCta = (props) => (
                 <h2>{props.title}</h2>
             </header>
             <p>{props.content}</p>
-            <ul className="actions">
-                <li><Link to={props.link} className="button next">{props.cta}</Link></li>
-            </ul>
+            {/*<ul className="actions">*/}
+                {/*<li><Link to={props.link} className="button next">{props.cta}</Link></li>*/}
+            {/*</ul>*/}
         </div>
     </section>
 )

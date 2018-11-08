@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Building a VR shop - Part 2: Building an interactive VR World"
 date:   2017-06-13
 categories: magento

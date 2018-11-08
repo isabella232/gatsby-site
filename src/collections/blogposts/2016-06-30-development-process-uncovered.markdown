@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title:  "Our development process uncovered"
 date:   2017-06-30
 categories: magento
