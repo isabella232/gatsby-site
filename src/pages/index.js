@@ -23,6 +23,7 @@ class HomeIndex extends React.Component {
                     meta={[
                         { name: 'description', content: 'magento 2 webshops met een hoge kwaliteit door gebouwd door professionals die u kunt vertrouwen.' },
                         { name: 'keywords', content: 'magento, magento 2, laravel, gatsbyjs' },
+                        { name: 'viewport', content: 'user-scalable=no, width=device-width, initial-scale=1.0"'}
                     ]}
                 >
                 </Helmet>

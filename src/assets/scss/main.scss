@@ -41,6 +41,11 @@
 		}
 	}
 
+body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
 // Base.
 
 	@import 'base/page';
