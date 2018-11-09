@@ -14,17 +14,17 @@ class TeamMember extends React.Component {
                 <span>{data.name}<br/>{data.job_title}</span>
                 <p>
                     {data.twitter && data.twitter.length > 0 &&
-                    <a href={'https://twitter.com/' + data.twitter} target="_blank" class="icon">
+                    <a href={'https://twitter.com/' + data.twitter} target="_blank" class="icon" rel="noopener noreferrer">
                         <i class="fa fa-twitter"></i>
                     </a>
                     }
                     {data.github && data.github.length > 0 &&
-                    <a href={'https://github.com/' + data.github} target="_blank" class="icon">
+                    <a href={'https://github.com/' + data.github} target="_blank" class="icon" rel="noopener noreferrer">
                         <i class="fa fa-github"></i>
                     </a>
                     }
                     {data.linkedin && data.linkedin.length > 0 &&
-                    <a href={'https://nl.linkedin.com/in/' + data.linkedin} target="_blank" class="icon">
+                    <a href={'https://nl.linkedin.com/in/' + data.linkedin} target="_blank" class="icon" rel="noopener noreferrer">
                         <i class="fa fa-linkedin"></i>
                     </a>
                     }
