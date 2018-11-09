@@ -8,12 +8,12 @@ exports.createPages = ({ graphql, actions }) => {
 
     return new Promise((resolve, reject) => {
         const blogPost = path.resolve('./src/templates/blog-post.js')
-        const jobPost = path.resolve('./src/templates/job-post.js')
         resolve(
             graphql(
                 `
                   {
                     allMarkdownRemark(
+                        filter: { frontmatter: { type: { eq: "post" } } },
                         sort: { fields: [frontmatter___date], order: DESC }
                     ) {
                       edges {
@@ -46,11 +46,56 @@ exports.createPages = ({ graphql, actions }) => {
 
                     createPage({
                         path: post.node.frontmatter.permalink,
-                        component: post.node.frontmatter.type === "post" ? blogPost : jobPost,
+                        component: blogPost,
                         context: {
                             slug: post.node.fields.slug,
                             previous,
                             next,
+                        },
+                    })
+                })
+            })
+        )
+
+        const jobPost = path.resolve('./src/templates/job-post.js')
+        resolve(
+            graphql(
+                `
+                  {
+                    allMarkdownRemark(
+                        filter: { frontmatter: { type: { eq: "job" } } },
+                        sort: { fields: [frontmatter___date], order: DESC }
+                    ) {
+                      edges {
+                        node {
+                          fields {
+                            slug
+                          }
+                          frontmatter {
+                            title
+                            permalink
+                            type
+                          }
+                        }
+                      }
+                    }
+                  }
+        `
+            ).then(result => {
+                if (result.errors) {
+                    console.log(result.errors)
+                    reject(result.errors)
+                }
+
+                // Create blog posts pages.
+                const posts = result.data.allMarkdownRemark.edges;
+
+                _.each(posts, (post) => {
+                    createPage({
+                        path: post.node.frontmatter.permalink,
+                        component: jobPost,
+                        context: {
+                            slug: post.node.fields.slug,
                         },
                     })
                 })
