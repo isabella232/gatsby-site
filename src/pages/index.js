@@ -36,7 +36,7 @@ class HomeIndex extends React.Component {
                         <ArticleTile title="Team" content="Techneuten met passie voor code" link="/team" background={elgentos6}  />
                         <ArticleTile title="Blog" content="Kennisdeling vinden we leuk!" link="/blog" background={elgentos4}  />
                         {/*<ArticleTile title="Magento 2" content="Waarom overstappen loont" link="/magento2" background={elgentos4}  />*/}
-                        <ArticleTile title="Partners" content="Gave projecten doen we niet alleen" link="/partners" background={elgentos15}  />
+                        <ArticleTile title="Tech stack" content="Onze favoriete tech om jouw doelen mee te behalen" link="/techstack" background={elgentos15}  />
                         <ArticleTile title="Vacatures" content="Wij zoeken versterking!" link="/vacatures" background={elgentos22}  />
                         {/*<ArticleTile title="Contact" content="Koffie?" link="/contact" background={elgentos3}  />*/}
                     </section>

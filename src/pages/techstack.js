@@ -3,7 +3,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
-import Partner from "../components/Partner";
+import Techstack from "../components/Partner";
 
 class PartnerClass extends React.Component {
     render() {
@@ -12,11 +12,11 @@ class PartnerClass extends React.Component {
         return (
             <Layout>
                 <Helmet>
-                    <title>Partners | elgentos ecommerce solutions</title>
-                    <meta name="description" content="Partners" />
+                    <title>Tech stack | elgentos ecommerce solutions</title>
+                    <meta name="description" content="Tech stack" />
                 </Helmet>
 
-                <BannerLanding title="Partners" content="Gave projecten doen we niet alleen!" />
+                <BannerLanding title="Tech stack" content="Onze favoriete tech om jouw doelen mee te behalen!" />
 
                 <div id="main" className="alt">
                     <section id="one">
@@ -24,7 +24,7 @@ class PartnerClass extends React.Component {
                             <div className="box alt">
                                 <div className="grid-wrapper">
                                     {data.map((row) => (
-                                        <Partner partner={row.node} />
+                                        <Techstack partner={row.node} />
                                     ))}
                                 </div>
                             </div>
@@ -45,6 +45,7 @@ export const PartnerQuery = graphql`
       edges {
         node {
           name
+          url
           ...partner
         }
       }

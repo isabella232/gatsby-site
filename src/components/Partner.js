@@ -7,10 +7,10 @@ class Partner extends React.Component {
         const data = this.props.partner
         return (
             <div className="col-4">
-                <span className="image fit">
-                    <Img fluid={data.image.childImageSharp.fluid} />
+                <span className="image fit partner">
+                    <Img fixed={data.image.childImageSharp.fixed} />
                 </span>
-                <p>{data.name}<br/>{data.job_title}</p>
+                <p><a href={data.url} target={'_new'}>{data.name}</a></p>
             </div>
         );
     }
@@ -22,8 +22,8 @@ export const PartnerFragment = graphql`
    fragment partner on PartnersCsv {
         image {
             childImageSharp {
-                fluid(maxWidth: 400) {
-                  ...GatsbyImageSharpFluid_withWebp
+                fixed(height: 300, width: 300, quality: 100) {
+                  ...GatsbyImageSharpFixed_withWebp
                 }
             }
         }
