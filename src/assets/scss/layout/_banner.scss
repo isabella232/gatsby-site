@@ -25,8 +25,8 @@
 		top: -3.25em;
 
 		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
+			//@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			//@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
 			background-color: _palette(bg);
 			content: '';
@@ -45,12 +45,12 @@
 		}
 
 		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
+			//@include vendor('transition', (
+			//	'opacity 1.5s ease',
+			//	'transform 0.5s ease-out',
+			//	'filter 0.5s ease',
+			//	'-webkit-filter 0.5s ease'
+			//));
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;

@@ -29,7 +29,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/over-ons" className="image">
                         <img src={elgentos39} alt="" />
                     </Link>
                     <div className="content">
@@ -39,13 +39,13 @@ const Landing = (props) => (
                             </header>
                             <p>De eerste stap is het uitdenken van de globale functionaliteiten en structuur van de webwinkel. In deze stap wordt een fundering gelegd voor het proces.</p>
                             {/*<ul className="actions">*/}
-                                {/*<li><Link to="/generic" className="button">Learn more</Link></li>*/}
+                                {/*<li><Link to="/over-ons" className="button">Learn more</Link></li>*/}
                             {/*</ul>*/}
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/over-ons" className="image">
                         <img src={elgentos15} alt="" />
                     </Link>
                     <div className="content">
@@ -55,13 +55,13 @@ const Landing = (props) => (
                             </header>
                             <p>Na het leggen van de fundering wordt een design uitgewerkt. Ook worden in deze fase de templates voor Magento gebouwd.</p>
                             {/*<ul className="actions">*/}
-                                {/*<li><Link to="/generic" className="button">Learn more</Link></li>*/}
+                                {/*<li><Link to="/over-ons" className="button">Learn more</Link></li>*/}
                             {/*</ul>*/}
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/over-ons" className="image">
                         <img src={elgentos17} alt="" />
                     </Link>
                     <div className="content">
@@ -71,13 +71,13 @@ const Landing = (props) => (
                             </header>
                             <p>Met de vorige stap voltooid worden de producten geïmporteerd. Dit wordt gecombineerd met het leggen van koppelingen met backend systemen. De webwinkel is nu bijna klaar voor gebruik.</p>
                             {/*<ul className="actions">*/}
-                                {/*<li><Link to="/generic" className="button">Learn more</Link></li>*/}
+                                {/*<li><Link to="/over-ons" className="button">Learn more</Link></li>*/}
                             {/*</ul>*/}
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/over-ons" className="image">
                         <img src={elgentos22} alt="" />
                     </Link>
                     <div className="content">
@@ -87,7 +87,7 @@ const Landing = (props) => (
                             </header>
                             <p>Tijdens finetuning worden de laatste plooien gladgestreken om de webshop te laten functioneren naar de kwaliteitseisen van elgentos. Nu begint het echte werk eigenlijk pas; samen de schouders onder het uitbouwen, doorontwikkelen en groeien van de shop!</p>
                             {/*<ul className="actions">*/}
-                                {/*<li><Link to="/generic" className="button">Learn more</Link></li>*/}
+                                {/*<li><Link to="/over-ons" className="button">Learn more</Link></li>*/}
                             {/*</ul>*/}
                         </div>
                     </div>

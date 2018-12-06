@@ -18,12 +18,12 @@
 		article {
 			@include vendor('align-items', 'center');
 			@include vendor('display', 'flex');
-			@include vendor('transition', (
-				'transform 0.25s ease',
-				'opacity 0.25s ease',
-				'filter 1s ease',
-				'-webkit-filter 1s ease'
-			));
+			//@include vendor('transition', (
+			//	'transform 0.25s ease',
+			//	'opacity 0.25s ease',
+			//	'filter 1s ease',
+			//	'-webkit-filter 1s ease'
+			//));
 			@include padding(4em, 4em);
 			background-position: center;
 			background-repeat: no-repeat;
