@@ -16,7 +16,7 @@ class TeamClass extends React.Component {
                     <meta name="description" content="Team" />
                 </Helmet>
 
-                <BannerLanding title="Team" content="Ons 12-koppig team staat voor je klaar!" />
+                <BannerLanding title="Team" content={'Ons ' + data.length + '-koppig team staat voor je klaar!'} />
 
                 <div id="main" className="alt">
                     <section id="one">
