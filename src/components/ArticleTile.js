@@ -16,9 +16,9 @@ const ArticleTile = (props) => (
         />
         <header className="major">
             <h3>{props.title}</h3>
-            <p>{props.content}</p>
+            <p aria-hidden={true}>{props.content}</p>
         </header>
-        <Link to={props.link} className="link primary"></Link>
+        <Link to={props.link} className="link primary" alt={props.title} title={props.title}></Link>
     </article>
 )
 

@@ -10,7 +10,7 @@ class Landing extends React.Component {
 
         return (
             <Layout>
-                <Helmet>
+                <Helmet htmlAttributes={{lang: 'nl'}}>
                     <title>Over ons | elgentos ecommerce solutions</title>
                     <meta name="description" content="Over ons"/>
                 </Helmet>

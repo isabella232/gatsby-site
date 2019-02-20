@@ -11,7 +11,7 @@ class PartnerClass extends React.Component {
 
         return (
             <Layout>
-                <Helmet>
+                <Helmet htmlAttributes={{lang: 'nl'}}>
                     <title>Tech stack | elgentos ecommerce solutions</title>
                     <meta name="description" content="Tech stack" />
                 </Helmet>

@@ -11,7 +11,7 @@ class TeamClass extends React.Component {
 
         return (
             <Layout>
-                <Helmet>
+                <Helmet htmlAttributes={{lang: 'nl'}}>
                     <title>Team | elgentos ecommerce solutions</title>
                     <meta name="description" content="Team" />
                 </Helmet>

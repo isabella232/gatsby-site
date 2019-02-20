@@ -19,6 +19,7 @@ class HomeIndex extends React.Component {
                         { name: 'keywords', content: 'magento, magento 2, laravel, gatsbyjs' },
                         { name: 'viewport', content: 'user-scalable=no, width=device-width, initial-scale=1.0"'}
                     ]}
+                    htmlAttributes={{lang: 'nl'}}
                 >
                 </Helmet>
 
