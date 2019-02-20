@@ -1,7 +1,18 @@
 import React from 'react'
+import Img from 'gatsby-image';
 
 const BannerHome = (props) => (
     <section id="banner" className="major">
+        <Img
+            sizes={props.banner.sizes}
+            style={{
+                position: "absolute",
+                left: 0,
+                top: 0,
+                width: "100%",
+                height: "100%"
+            }}
+        />
         <div className="inner">
             <header className="major">
                 <h1>{props.title}</h1>

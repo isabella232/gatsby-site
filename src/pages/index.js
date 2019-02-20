@@ -22,7 +22,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <BannerHome title="Experts in Magento bouw" content="focus op Magento 2 backend gecombineerd met Laravel gebaseerde microservices en React frontends" />
+                <BannerHome title="Experts in Magento bouw" content="focus op Magento 2 backend gecombineerd met Laravel gebaseerde microservices en React frontends" banner={this.props.data.banner}/>
 
                 <div id="main">
                     <section id="one" className="tiles">
@@ -48,6 +48,16 @@ export default HomeIndex
 
 export const pageQuery = graphql`
   query SplashImagesQuery {
+    banner: imageSharp(fixed:{originalName: {eq:"banner.jpg"}}) {
+        sizes {
+          aspectRatio
+          src
+          srcSet
+          srcWebp
+          srcSetWebp
+          sizes
+        }
+    }
     splash22: imageSharp(fixed:{originalName: {eq:"elgentos-22.jpg"}}) {
         sizes {
           aspectRatio
