@@ -58,10 +58,10 @@ export default class GoogleMaps extends React.Component {
                 defaultCenter={{lat: 53.2064, lng: 6.5740}}
                 onMapMounted={this._handleMapMounted}
                 onBoundsChanged={this._handleBoundsChanged}>
-                {markers.map(( marker ) => {
+                {markers.map(( marker, key ) => {
                     const lat = marker.position.lat;
                     const lng = marker.position.lng;
-                    return (<Marker position={{ lat: lat, lng: lng}} >
+                    return (<Marker key={key} position={{ lat: lat, lng: lng}} >
                         <InfoWindow><span>{marker.name}</span></InfoWindow>
                     </Marker>)
                 })}
