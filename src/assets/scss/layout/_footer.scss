@@ -28,6 +28,58 @@
 			}
 		}
 
+		.magento-cip-badge {
+			width:400px;
+			top:14px;
+		}
+
+		@include breakpoint(medium) {
+			.magento-cip-badge {
+				width:650px;
+				top:20px;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			.magento-cip-badge {
+				width:350px;
+				top:20px;
+			}
+		}
+
+		@include breakpoint(xxsmall) {
+			.magento-cip-badge {
+				width:270px;
+				top:20px;
+			}
+		}
+
+		.hypernode-certified-badge {
+			width:400px;
+			top:12px;
+		}
+
+		@include breakpoint(medium) {
+			.hypernode-certified-badge {
+				width:650px;
+				top:25px;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			.hypernode-certified-badge {
+				width:350px;
+				top:25px;
+			}
+		}
+
+		@include breakpoint(xxsmall) {
+			.hypernode-certified-badge {
+				width:270px;
+				top:25px;
+			}
+		}
+
 		@include breakpoint(xsmall) {
 			.copyright {
 				li {
