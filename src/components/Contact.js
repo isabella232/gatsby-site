@@ -49,6 +49,7 @@ const Contact = (props) => (
                         <span>Hereweg 120<br />
                         9725 KL Groningen<br />
                         Nederland</span>
+                        <br /><a href={'https://www.prettigparkeren.nl/embed/#!GRONINGEN/Hereweg%20120///initLayers:onstreet,garage,area,pr,evse%22_width=%22800%22_height=%22600%22_frameborder=%220%22_scrolling=%22no%22/'} target={'_blank'}>Let op: betaald parkeren</a>
                     </div>
                 </section>
             </section>
