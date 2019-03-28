@@ -44,7 +44,11 @@ We had a few demands for our own anonymizer;
 - It needed to be configurable to a certain extent;
 - It needed to be a standalone PHAR application (no extension or package for a certain framework).
 
-This is why we built [Masquerade](https://github.com/elgentos/masquerade). Masquerade can anonymize a MySQL database for you following a set of rules configured in YAML files. Each YAML file refers to a group, which can contain multiple database tables, each with multiple columns. An example of a YAML file for Magento 2 is this (part of) `customer.yaml`;
+This is why we built [Masquerade](https://github.com/elgentos/masquerade). Masquerade can anonymize a MySQL database for you following a set of rules configured in YAML files. Each YAML file refers to a group, which can contain multiple database tables, each with multiple columns. 
+
+![Masquerade](https://user-images.githubusercontent.com/431360/42574650-30e8d186-851f-11e8-9693-c23b426c43f2.png)
+
+An example of a YAML file for Magento 2 is this (part of) `customer.yaml`;
 
 ```yaml
 customer:
