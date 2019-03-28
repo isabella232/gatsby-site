@@ -26,7 +26,7 @@ class BlogPostTemplate extends React.Component {
                           <h1>{post.frontmatter.title}</h1>
                       </header>
                       {/*<span className="image main"><img src={pic11} alt="" /></span>*/}
-                      <div className="box alt">
+                      <div className="box alt blogpost">
                             <p>
                               {post.frontmatter.date} - {post.fields.readingTime.text}
                             </p>
