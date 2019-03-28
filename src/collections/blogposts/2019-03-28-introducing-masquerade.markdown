@@ -41,6 +41,7 @@ We decided to write our own. We're developers after all!
 
 We had a few demands for our own anonymizer;
 - It needed to be platform-agnostic;
+- It needed to have Magento 2 configuration files out of the box;
 - It needed to be configurable to a certain extent;
 - It needed to be a standalone PHAR application (no extension or package for a certain framework).
 
