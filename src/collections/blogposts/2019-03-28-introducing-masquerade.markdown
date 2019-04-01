@@ -29,7 +29,11 @@ We started by looking at the systems that were available to anonymize databases.
 
 [integer-net/Anonymizer](https://github.com/integer-net/Anonymizer)
 
-This Magento extension does actually what we want; it uses the popular fake data generation package [fzaninotto/Faker](https://github.com/fzaninotto/Faker) to replace the actual values with fake data. However, this is a Magento 1 extension and we migrated (almost) all our clients to Magento 2. Porting it would've been an option but we felt like a Magento extension wasn't the most flexible way to do this; we'd actually need a Magento installation up and running to anonymize the database and we didn't want to do that.
+This Magento extension does pretty much what we want; it uses the popular fake data generation package [fzaninotto/Faker](https://github.com/fzaninotto/Faker) to replace the actual values with fake data. However, this is a Magento 1 extension and we migrated (almost) all our clients to Magento 2. Porting it would've been an option but we felt like a Magento extension wasn't the most flexible way to do this; we'd actually need a Magento installation up and running to anonymize the database and we didn't want to do that.
+
+[experius/Magento-2-Module-Experius-FakeMyData](https://github.com/experius/Magento-2-Module-Experius-FakeMyData)
+
+This is a Magento 2 module that basically does the same as the integer-net Magento 1 extension. Unfortunately, its still a Magento 2 extension and not a standalone tool. It also doesn't offer any customization options. It does use names from personas from Game of Thrones, so that's cool.
 
 [DivanteLtd/anonymizer](https://github.com/DivanteLtd/anonymizer)
 
