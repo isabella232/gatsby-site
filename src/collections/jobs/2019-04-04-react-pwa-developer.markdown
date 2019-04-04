@@ -65,7 +65,7 @@ Een medior/senior React developer. Of je vers van de opleiding komt, hiervoor bi
 
     * GraphQL
 
-    * REdux
+    * Redux
 
 * Met klanten omgaan;
 
