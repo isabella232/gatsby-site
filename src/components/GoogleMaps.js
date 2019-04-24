@@ -16,10 +16,10 @@ const markers = [{
         }
     },
     {
-        name: 'Meester P.J. Troelstraweg 149, Leeuwarden',
+        name: 'Zaailand 106, Leeuwarden',
         position: {
-            lat: 53.2152674,
-            lng: 5.7794542
+            lat: 53.1994167,
+            lng: 5.7940725
         }
     }
 ];
