@@ -28,6 +28,11 @@ class TeamMember extends React.Component {
                         <i class="fa fa-linkedin"></i>
                     </a>
                     }
+                    {data.laravel && data.laravel.length > 0 &&
+                    <a href={data.laravel} target="_blank" class="icon" rel="noopener noreferrer">
+                        <i class="fa fa-laravel"></i>
+                    </a>
+                    }
                 </p>
             </div>
         );
