@@ -32,11 +32,11 @@ export default () => (
             <footer id="footer">
                 <div className="inner">
                     <ul className="icons">
-                        <li><a href="https://twitter.com/elgentos" className="icon alt fa-twitter" alt={'Twitter'}
+                        <li><a href="https://twitter.com/elgentos" className="icon alt fas fa-twitter" alt={'Twitter'}
                                title={'Twitter'} target={'_blank'}><span className="label">Twitter</span></a></li>
-                        <li><a href="https://github.com/elgentos" className="icon alt fa-github" alt={'GitHub'}
+                        <li><a href="https://github.com/elgentos" className="icon alt fas fa-github" alt={'GitHub'}
                                title={'GitHub'} target={'_blank'}><span className="label">GitHub</span></a></li>
-                        <li><a href="https://www.linkedin.com/company/elgentos/" className="icon alt fa-linkedin"
+                        <li><a href="https://www.linkedin.com/company/elgentos/" className="icon alt fas fa-linkedin"
                                alt={'LinkedIn'} title={'LinkedIn'} target={'_blank'}><span className="label">LinkedIn</span></a></li>
                         <li>
                             <a href="https://partners.magento.com/portal/details/partner/id/2070/"
