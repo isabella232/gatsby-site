@@ -50,6 +50,7 @@ export const TeamQuery = graphql`
           twitter
           github
           linkedin
+          laravel
           ...teamMember
         }
       }
