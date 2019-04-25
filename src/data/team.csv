@@ -1,15 +1,15 @@
 id,name,date,job_title,image,twitter,github,linkedin,laravel
-peterjaap,Peter Jaap Blaakmeer,2011-10-01,CTO,../assets/images/teammembers/peterjaap.jpg,PeterJaap,PeterJaap,peterjaap
-wouter,Wouter Steenmeijer,2012-02-01,Frontend developer,../assets/images/teammembers/wouter.jpg,WouterSteen,WouterSteen,woutersteenmeijer
-jeroen,Jeroen Boersma,2016-01-01,Backend developer,../assets/images/teammembers/jeroen.jpg,srcoder,JeroenBoersma,jeroenboersma
-rick,Rick Kuilman,2016-02-03,Backend developer,../assets/images/teammembers/rick.jpg,rickkuilman,rickkuilman,rickkuilman
-fred,Fred Duzink,2016-07-01,Frontend developer,../assets/images/teammembers/fred.jpg,prefuse_net,fredduzink,fredduzink
-sander,Sander Jongsma,2017-01-09,Frontend developer,../assets/images/teammembers/sander.jpg,sanniieb,sanderjongsma,jongsmasander
-gideon,Gideon Overeem,2017-12-01,Backend developer,../assets/images/teammembers/gideon.jpg,,govereem,gideon-overeem-b0508226
-guido,Guido van de Camp,2018-02-01,Backend developer,../assets/images/teammembers/guido.jpg,vandecampict,guido7171,guidovandecamp
-katja,Katja Witsenboer,2018-03-09,Office manager,../assets/images/teammembers/katja.jpg,,,ekaterina-witsenboer-53683359
-leon,Leon Visscher,2018-02-01,PWA developer,../assets/images/teammembers/leon.jpg,,,leon-visscher
-martijn,Martijn Wiekens,2018-02-01,Backend developer,../assets/images/teammembers/martijn.jpg,,,martijn-wiekens
-jerke,Jerke Combee,2018-11-01,Laravel developer,../assets/images/teammembers/jerke.jpg,,,jerke-combee
-kevin,Kevin Tolman,2019-01-22,Project manager,../assets/images/teammembers/kevin.jpg,,,kevin-tolman-a6788aa
+peterjaap,Peter Jaap Blaakmeer,2011-10-01,CTO,../assets/images/teammembers/peterjaap.jpg,PeterJaap,PeterJaap,peterjaap,
+wouter,Wouter Steenmeijer,2012-02-01,Frontend developer,../assets/images/teammembers/wouter.jpg,WouterSteen,WouterSteen,woutersteenmeijer,
+jeroen,Jeroen Boersma,2016-01-01,Backend developer,../assets/images/teammembers/jeroen.jpg,srcoder,JeroenBoersma,jeroenboersma,
+rick,Rick Kuilman,2016-02-03,Backend developer,../assets/images/teammembers/rick.jpg,rickkuilman,rickkuilman,rickkuilman,
+fred,Fred Duzink,2016-07-01,Frontend developer,../assets/images/teammembers/fred.jpg,prefuse_net,fredduzink,fredduzink,
+sander,Sander Jongsma,2017-01-09,Frontend developer,../assets/images/teammembers/sander.jpg,sanniieb,sanderjongsma,jongsmasander,
+gideon,Gideon Overeem,2017-12-01,Backend developer,../assets/images/teammembers/gideon.jpg,,govereem,gideon-overeem-b0508226,
+guido,Guido van de Camp,2018-02-01,Backend developer,../assets/images/teammembers/guido.jpg,vandecampict,guido7171,guidovandecamp,
+katja,Katja Witsenboer,2018-03-09,Office manager,../assets/images/teammembers/katja.jpg,,,ekaterina-witsenboer-53683359,
+leon,Leon Visscher,2018-02-01,PWA developer,../assets/images/teammembers/leon.jpg,,,leon-visscher,
+martijn,Martijn Wiekens,2018-02-01,Backend developer,../assets/images/teammembers/martijn.jpg,,,martijn-wiekens,
+jerke,Jerke Combee,2018-11-01,Laravel developer,../assets/images/teammembers/jerke.jpg,,,jerke-combee,
+kevin,Kevin Tolman,2019-01-22,Project manager,../assets/images/teammembers/kevin.jpg,,,kevin-tolman-a6788aa,
 sieger,Sieger Hansma,2019-01-29,Backend developer,../assets/images/teammembers/sieger.jpg,siegerhansma,siegerhansma,siegerhansma,https://exam.laravelcert.com/is/sieger-hansma/certified-since/2019-04-25
