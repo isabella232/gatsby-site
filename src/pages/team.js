@@ -51,6 +51,7 @@ export const TeamQuery = graphql`
           github
           linkedin
           laravel
+          magento
           ...teamMember
         }
       }
