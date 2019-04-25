@@ -1,4 +1,4 @@
-id,name,date,job_title,image,twitter,github,linkedin
+id,name,date,job_title,image,twitter,github,linkedin,laravel
 peterjaap,Peter Jaap Blaakmeer,2011-10-01,CTO,../assets/images/teammembers/peterjaap.jpg,PeterJaap,PeterJaap,peterjaap
 wouter,Wouter Steenmeijer,2012-02-01,Frontend developer,../assets/images/teammembers/wouter.jpg,WouterSteen,WouterSteen,woutersteenmeijer
 jeroen,Jeroen Boersma,2016-01-01,Backend developer,../assets/images/teammembers/jeroen.jpg,srcoder,JeroenBoersma,jeroenboersma
@@ -12,4 +12,4 @@ leon,Leon Visscher,2018-02-01,PWA developer,../assets/images/teammembers/leon.jp
 martijn,Martijn Wiekens,2018-02-01,Backend developer,../assets/images/teammembers/martijn.jpg,,,martijn-wiekens
 jerke,Jerke Combee,2018-11-01,Laravel developer,../assets/images/teammembers/jerke.jpg,,,jerke-combee
 kevin,Kevin Tolman,2019-01-22,Project manager,../assets/images/teammembers/kevin.jpg,,,kevin-tolman-a6788aa
-sieger,Sieger Hansma,2019-01-29,Backend developer,../assets/images/teammembers/sieger.jpg,siegerhansma,siegerhansma,siegerhansma
+sieger,Sieger Hansma,2019-01-29,Backend developer,../assets/images/teammembers/sieger.jpg,siegerhansma,siegerhansma,siegerhansma,https://exam.laravelcert.com/is/sieger-hansma/certified-since/2019-04-25
