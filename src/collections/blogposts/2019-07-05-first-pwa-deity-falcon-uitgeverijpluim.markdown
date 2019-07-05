@@ -9,7 +9,7 @@ author: Peter Jaap Blaakmeer
 
 #### Introduction
 
-Yesterday, we launched our first PWA project for a Magento 2 project. In this blogpost, we will detail why and how we built this cutting-edge and lighting-fast webshop. If you can't wait to see the result (we totally understand!) you can visit the webshop here; [uitgeverijpluim.nl](https://uitgeverijpluim.nl).
+Last week, we launched our first PWA project for a Magento 2 project. In this blogpost, we will detail why and how we built this cutting-edge and lighting-fast webshop. If you can't wait to see the result (we totally understand!) you can visit the webshop here; [uitgeverijpluim.nl](https://uitgeverijpluim.nl).
 
 In the Magento PWA scene there has been a lot of talk and not a very large amount of action concerning actually building shops. We've seen proof of concepts but that only gets you so far. So when we had the opportunity to build a PWA shop, we decided to just go for it and see where we'd end up. We were in the lucky position to run into a client that was willing to go on this adventure with us!
 
