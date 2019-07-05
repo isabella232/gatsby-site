@@ -101,12 +101,11 @@ Then we had the issue of images; we had images coming in from Magento and we had
 
 !['Cloudinary face transformation'](../../assets/images/blogs/falcon/cloudinary-face-transformation.png)
 
-###### iDeal payment method integration
+##### iDeal payment method integration
 
 Falcon out of the box offers a PayPal and an Adyen integration. Unfortunately the Adyen integration only offers a credit card implementation and not an iDeal integration, which we needed. We wanted to go for a simple iDeal payment implementation and decided on Mollie because of their extremely simple API and their great [Magento 2 extension](https://github.com/mollie/magento2). The Magento 2 extension actually does all the heavy lifting; we only had to extend the extension a little bit to be able to pass back a different redirect URL. This is because we have to redirect the client back to the Falcon frontend instead of the default Magento 2 frontend. You can find our at our Github page; [Falcon Mollie implementation for Magento 2](https://github.com/elgentos/FalconMollie).
 
-
-###### Pagespeed Insights optimization
+##### Pagespeed Insights optimization
 
 We wanted a fast site, and a fast site is what we got! We spent a lot of time optimizing the code and the Webpack bundles that comprise our eventual site, but here's the result (and yes, we're pretty proud of that!);
 
