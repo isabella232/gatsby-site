@@ -46,7 +46,9 @@ However, PWA offerings aren't built in PHP. They are written in Javascript and m
 
 After we decided to work with React a while ago, we started playing with building pure React apps (like our [tableratesgenerator.com](https://www.tableratesgenerator.com/)) and building sites using [Gatsby[(https://www.gatsbyjs.org/), which is a React-based static site generator. In fact, the site you'r reading this on is built on Gatsby. Gatsby enables us to efficiently and quickly build extremely fast sites in a relatively short amount of time and without a lot of developer training. React components are at the end of the day just little bundles of Javascript, which makes it fairly easy for anyone with some Javascript experience to digest what is happening in such a framework. Besides, the [Gatsby docs](https://www.gatsbyjs.org/docs/) are just excellent and the its community is very welcoming (hi there Jason!).
 
-Since the first milestone was to get a content site up and running, we decided to go with Gatsby to get the site up and running. We had a design in pure HTML/JS/CSS and rewrote this to a [Gatsby theme](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/), which is basically a collection of React components. This allowed us to move these components over with relative ease to our PWA solution down the line, since we also settled on React when going the PWA route concerning e-commerce.
+Since the first milestone was to get a content site up and running, we decided to go with Gatsby to get the site up and running. We had a design in pure HTML/JS/CSS and rewrote this to a [Gatsby theme](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/), which is basically a collection of React components. This allowed us to move these components over with relative ease to our PWA solution down the line, since we also settled on React when going the PWA route concerning e-commerce. 
+
+The Gatsby site is still accessible [here](http://kind-jepsen-2ed2ec.netlify.com).
 
 #### Prismic
 
