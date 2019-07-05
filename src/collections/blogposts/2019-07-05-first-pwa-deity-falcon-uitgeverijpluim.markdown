@@ -15,7 +15,7 @@ In the Magento PWA scene there has been a lot of talk and not a very large amoun
 
 #### Client wishes
 
-When the client approached us, they had no idea what a PWA was and what it entails. Uitgeverij Pluim is a Dutch publishing company that started in 2018. They publish literary fiction and non-fiction books focused on the Dutch market. We pitched them PWA and explained what this could mean for them. Two of the main benefitsof PWA are the speed of the webshop and the high Google Pagespeed Insight scores that are relatively easy attainable versus a standard Magento 2 frontend implementation.
+When the client approached us, they had no idea what a PWA was and what it entails. Uitgeverij Pluim is a Dutch publishing company that started in 2018. They publish literary fiction and non-fiction books focused on the Dutch market. We pitched them PWA and explained what this could mean for them. Two of the main benefits of PWA are the speed of the webshop and the high Google Pagespeed Insight scores that are relatively easy attainable versus a standard Magento 2 frontend implementation.
 
 The requirements were fairly straightforward, which gave us the confidence to start building a PWA. At this point in time, PWA offerings aren't as feature-rich as the standard Magento 2 frontend and feature parity is still a long way off. The main initial requirements for phase 1 were;
 
@@ -32,9 +32,9 @@ The subsequent requirements for phase 2 were;
 - Ability to use iDeal as payment method
 - Ability to do some basic email marketing
 
-Due to the relatively small amount of books on the shop (about 20 to 50 at any given time), we could do without filtering options and search. Due to the restriction on the Dutch-speaking world, we could also do without internationalisation and complex tax settings etc.
+Due to the relatively small amount of books on the shop (about 20 to 50 at any given time), we could do without filtering options and search. Due to the restriction on the Dutch-speaking market, we could also do without internationalisation and complex tax settings etc.
 
-We then started looking for ways to separate these two phases and get the content site (without e-commerce functionality) online as fast as possible. 
+We then started looking for ways to separate these two phases and get the content site (without e-commerce functionality) online as fast as possible.
 
 #### React
 
@@ -44,7 +44,7 @@ However, PWA offerings aren't built in PHP. They are written in Javascript and m
 
 #### Gatsby
 
-After we decided to work with React a while ago, we started playing with building pure React apps (like our [tableratesgenerator.com](https://www.tableratesgenerator.com/)) and building sites using [Gatsby[(https://www.gatsbyjs.org/), which is a React-based static site generator. In fact, the site you'r reading this on is built on Gatsby. Gatsby enables us to efficiently and quickly build extremely fast sites in a relatively short amount of time and without a lot of developer training. React components are at the end of the day just little bundles of Javascript, which makes it fairly easy for anyone with some Javascript experience to digest what is happening in such a framework. Besides, the [Gatsby docs](https://www.gatsbyjs.org/docs/) are just excellent and the its community is very welcoming (hi there Jason!).
+After we decided to work with React a while ago, we started playing with building pure React apps (like our [tableratesgenerator.com](https://www.tableratesgenerator.com/)) and building sites using [Gatsby](https://www.gatsbyjs.org/), which is a React-based static site generator. In fact, the site you'r reading this on is built on Gatsby. Gatsby enables us to efficiently and quickly build extremely fast sites in a relatively short amount of time and without a lot of developer training. React components are at the end of the day just little bundles of Javascript, which makes it fairly easy for anyone with some Javascript experience to digest what is happening in such a framework. Besides, the [Gatsby docs](https://www.gatsbyjs.org/docs/) are just excellent and the its community is very welcoming (hi there Jason!).
 
 Since the first milestone was to get a content site up and running, we decided to go with Gatsby to get the site up and running. We had a design in pure HTML/JS/CSS and rewrote this to a [Gatsby theme](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/), which is basically a collection of React components. This allowed us to move these components over with relative ease to our PWA solution down the line, since we also settled on React when going the PWA route concerning e-commerce. 
 
