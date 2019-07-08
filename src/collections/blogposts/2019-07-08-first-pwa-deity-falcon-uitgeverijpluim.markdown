@@ -1,7 +1,7 @@
 ---
 type: post
 title:  "The first PWA on Deity Falcon for Uitgeverij Pluim"
-date:   2019-07-04
+date:   2019-07-08
 categories: magento
 permalink: /blog/first-pwa-deity-falcon-uitgeverij-pluim/
 author: Peter Jaap Blaakmeer
