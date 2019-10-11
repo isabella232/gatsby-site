@@ -1,13 +1,13 @@
 ---
 type: post
-title:  "elgentos Hacktoberfest 17 oktober 2019 open uitnodiging"
+title:  "elgentos hackathon 17 oktober 2019 open uitnodiging"
 date:   2019-10-11
 categories: magento
 permalink: /blog/elgentos-hackathon-2019-open-uitnodiging/
 author: Peter Jaap Blaakmeer
 ---
 
-#### elgentos Hackathon 17 oktober 2019 open uitnodiging
+#### elgentos hackathon 17 oktober 2019 open uitnodiging
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is aangebroken! Hacktoberfest is een maandlange actie, georganiseerd door DigitalOcean, om developers enthousiast te maken voor open source projecten. Onze developers doen hier al jaren aan mee en lopen vaak in hun met trots verkregen Hacktoberfest t-shirts rond op kantoor.
 
