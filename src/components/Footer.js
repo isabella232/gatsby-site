@@ -48,7 +48,7 @@ export default () => (
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.byte.nl/partners/elgentos"
+                            <a href="https://www.byte.nl/partners/"
                                alt={'Hypernode Certified Agency'} title={'Hypernode Certified Agency'} target={'_blank'}>
                                 <Img
                                     sizes={data.hypernode.sizes}
