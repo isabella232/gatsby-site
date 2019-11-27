@@ -62,7 +62,10 @@ export default () => (
                         <li>Built with: <a href="https://gatsbyjs.org" alt="GatsbyJS" title={'GatsbyJS'}>GatsbyJS</a>
                         </li>
                         <li><a href="https://www.foundedingroningen.com/" alt="Founded in Groningen"
-                               title={'Founded in Groningen'}>Founded in Groningen</a></li>
+                                title={'Founded in Groningen'}>Founded in Groningen</a></li>
+                        <li><a href="https://medium.com/@sexandstartups/zebrasfix-c467e55f9d96" 
+                                alt="we are a zebra" 
+                                title="we are a zebra">we are a zebra</a></li>
                     </ul>
                 </div>
             </footer>
