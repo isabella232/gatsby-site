@@ -57,7 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
             })
         )
 
-        const jobPost = path.resolve('./src/templates/job-post.js')
+        const jobPost = path.resolve('./src/templates/job-post.js');
         resolve(
             graphql(
                 `
@@ -83,7 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
             ).then(result => {
                 if (result.errors) {
-                    console.log(result.errors)
+                    console.log(result.errors);
                     reject(result.errors)
                 }
 
@@ -96,6 +96,51 @@ exports.createPages = ({ graphql, actions }) => {
                         component: jobPost,
                         context: {
                             slug: post.node.fields.slug,
+                        },
+                    })
+                })
+            })
+        );
+
+        const caseTemplate = path.resolve('./src/templates/case.js');
+        resolve(
+            graphql(
+                `
+                  {
+                    allMarkdownRemark(
+                        filter: { frontmatter: { type: { eq: "case" } } },
+                        sort: { fields: [frontmatter___date], order: DESC }
+                    ) {
+                      edges {
+                        node {
+                          fields {
+                            slug
+                          }
+                          frontmatter {
+                            title
+                            permalink
+                            type
+                          }
+                        }
+                      }
+                    }
+                  }
+        `
+            ).then(result => {
+                if (result.errors) {
+                    console.log(result.errors);
+                    reject(result.errors)
+                }
+
+                // Create blog posts pages.
+                const cases = result.data.allMarkdownRemark.edges;
+
+                _.each(cases, (Case) => {
+                    createPage({
+                        path: Case.node.frontmatter.permalink,
+                        component: caseTemplate,
+                        context: {
+                            slug: Case.node.fields.slug,
                         },
                     })
                 })

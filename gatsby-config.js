@@ -46,6 +46,13 @@ module.exports = {
           name: 'jobs',
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          path: `${__dirname}/src/collections/cases`,
+          name: 'cases',
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
       {
