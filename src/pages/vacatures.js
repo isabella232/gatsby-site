@@ -21,7 +21,7 @@ class JobIndex extends React.Component {
                     meta={[{ name: 'description', content: siteDescription }]}
                     title={siteTitle}
                 />
-                <BannerLanding title="Vacatures" content="" />
+                <BannerLanding title="Vacatures" content="" type={'small'} />
 
                 <div id="main" className="alt">
                     <section id="one">

@@ -23,6 +23,13 @@
 		position: relative;
 		top: -3.25em;
 
+		&.small {
+			top:0;
+			max-height:none;
+			min-height: auto;
+			height:auto;
+		}
+
 		&:after {
 			//@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			//@include vendor('transition-delay', '0.75s');

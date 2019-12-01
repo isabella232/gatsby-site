@@ -16,7 +16,7 @@ class PartnerClass extends React.Component {
                     <meta name="description" content="Tech stack" />
                 </Helmet>
 
-                <BannerLanding title="Tech stack" content="Onze favoriete tech om jouw doelen mee te behalen!" />
+                <BannerLanding title="Tech stack" type={'small'} content="Onze favoriete tech om jouw doelen mee te behalen!" />
 
                 <div id="main" className="alt">
                     <section id="one">
