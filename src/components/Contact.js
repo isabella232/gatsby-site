@@ -39,8 +39,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fas fa-phone"></span>
                         <h3>Telefoon</h3>
-                        <span><a href="tel:0031507001515">(+31) (0)50 700 15 15</a></span><br />
-                        Let op: wij zijn met minimale bezetting en dus mogelijk slecht bereikbaar tussen 23 december t/m 3 januari.
+                        <span><a href="tel:0031507001515">(+31) (0)50 700 15 15</a></span>
                     </div>
                 </section>
                 <section>
