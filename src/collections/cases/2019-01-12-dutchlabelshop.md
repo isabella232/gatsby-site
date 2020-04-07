@@ -99,6 +99,7 @@ Unfortunately, there was no Magento 2 extension available to connect Prismic wit
 ### PDF to PNG
 
 ### Color Extractor
+In the Magento 1 shop, customers had to pick the colors that were present on the label. For the new shop, the client wanted this process to be automatic. With the help of machine learning, the colors are automatically extracted from the image. The color information is then saved in Magento and used during the production process. 
 
 ### Translations
 
@@ -106,5 +107,38 @@ Unfortunately, there was no Magento 2 extension available to connect Prismic wit
 
 ## Business processes
 
+The main responsibility for the middleware is to track the production of orders. Because the processes were built into the Magento 1 shop, we had to port them to the middleware. This gave us a nice opportunity to revisit the processes. First, we needed to see what the current process looked like. Fortunately, the processes were already documented by Dutch Label Shop because they operate as a fully remote company. 
+
+In this case, well crafted documentation did not only help getting new employees up to speed quickly, but it also helped us to see what the current process looked like. 
+
+Next up was defining how the new process should look. To do this, we had multiple sessions with the client to visualize the entire workflow. We made a flowchart in [Lucidchart](https://www.lucidchart.com/). The great thing about Lucidchart is the collaboration feature. For us, this meant that we could work together with the client on the same chart at the same time. 
+
 ## Middleware
+
+At the heart of the new shop is the custom middleware, the Order Management System or OMS for short. We built the OMS on top of Laravel, the PHP framework. 
+
+After building the flowchart, we had a clear vision about how the entire production process should flow through the application. With this in mind, we could start building the foundation of the application. For this, we broke down the application into its smallest part: the screen.
+
+### Screens
+The production process consists of a number of steps. Some of these steps have one or multiple people working on it. These people only need to see the information relevant to them at that time. For this, we created screens. A screen is an overview page with all the orders that are in that step of the workflow. A screen can contain multiple actions that are different per context. A factory employee can look at the orders in his step and only focus on those orders. Orders can then be sent to the next step in the workflow or be sent back, for example, when something went wrong during production. 
+
+!['Example of a screen](../../assets/images/cases/dutch-label-shop/screenshot-oms-screen.png)
+
+### Permissions
+One of the most important features of the OMS is the permission system. In the production process, an employee is responsible for one or multiple steps. With the permission system, we can limit the employee to only see specific screens that are needed for his task. Within the workflow, permissions are connected to each step. As an extra precaution, the permission for each order is handled by the workflow. When an order goes to the next step, the workflow automatically checks what permission is connected to that step. This permission is then added to the order, so the right employee sees it. 
+
+In addition to showing/hiding entire orders for employees, we also have the opportunity to hide specific pieces of information. For example, a factory worker can not see any client or financial information but only sees the information relevant for the task. 
+
+### Notification Manager
+When an order goes through the entire production process, Magento needs to continually be updated. For this, we wrote the notification manager. On the OMS side, every (whitelisted) action triggers a notification to Magento. Based on this, Magento picks up the notification and checks if it needs to perform an action. For example, it's possible to order a product that has a photoproof. When the customer does this and the order reaches the photoproof stage of the production process, OMS sends a notification to Magento. This notification contains all the data neccesary for a mail to be sent to the customer notifying him of the photoproof. 
+
+The notification manager is also used with shipping notifications. OMS is responsible for creating the shipments and sending them to the fulfillment services. The fulfillment services relay the shipment tracking data to OMS, which in turn moves the order along the workflow and sends the shipment tracking data to Magento via the notification manager. Magento then sends shipment tracking data to the customer via email until the shipment is delivered. 
+
+!['Notification Manager Example](../../assets/images/cases/dutch-label-shop/notification-manager-example.png)
+
+
+
+
+
+
 
