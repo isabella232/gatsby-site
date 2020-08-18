@@ -2,6 +2,8 @@
 .idea/
 node_modules/
 public
+!public/_redirects
+!public/_rewrites
 .gatsby-context.js
 .DS_Store
 .intermediate-representation/
