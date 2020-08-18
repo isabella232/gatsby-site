@@ -5,11 +5,11 @@
   from = "/vacatures/"
   to = "https://career.elgentos.nl"
 
-[[redirects]
+[[redirects]]
   from = "/tablerates" 
   to = "https://www.tableratesgenerator.com/"
 
-[[redirects]
+[[redirects]]
   from = "/vacatures/laravel-php-developer/"
   to = " https://career.elgentos.nl/o/laravel-php-developer"
 
@@ -17,6 +17,6 @@
   from = "/vacatures/magento-php-backend-developer/"
   to = "https://career.elgentos.nl/o/magento-2-backend-developer"
 
-[[redirects]
+[[redirects]]
   from = "/vacatures/magento-frontend-developer/"
   to = "https://career.elgentos.nl/o/magento-2-frontend-developer"
