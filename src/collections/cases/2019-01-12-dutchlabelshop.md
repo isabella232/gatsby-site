@@ -90,6 +90,16 @@ Unfortunately, there was no Magento 2 extension available to connect Prismic wit
 
 ## Product designers & uploaders
 
+Heart of the sales process for Dutchlabelshop is the obviously the product. Dutchlabelshop has some labels in stock, like the `Made in` labels. The rest of the products you have to design yourself with what we call `configurators`. We can separate the configurators in 2 categories, and uploader - were you upload an image and create the label from there, and a designer - where you design a label from some preset options that are provided. We learned alot from these types in magento 1. First thing is that we dont want server side rendering for creating the label previews. Main reason here is that SSR is to slow, first and foremost because of the network latency. A CSR approach gives the customer instant results when he changes something in the configurator. Also with CSR we dont have to think about possible scaling issues when you SSR images with customer input. We choose React to build the configurators. For the preview we chose fabric.js as an extra object model on top of the HTML canvas element.
+
+The basis of each configurator is a JSON file that is being downloaded on page view, with this json the react application is rendering the client input fields. On each change, a new preview is generated.
+
+### Designers
+TBD
+
+### Uploaders
+TBD
+
 ## Product library
 
 ## Pricing library
