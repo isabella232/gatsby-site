@@ -57,7 +57,7 @@ Building the frontend components in the component library created a short feedba
 
 !['Components build pipeline'](../../assets/images/cases/dutch-label-shop/dls-components-pipeline.jpg)
 
-After all components were created and the HTML and CSS for them was ready, we implemented the HTML into our Magento 2 theme. The CSS is directly included from the component library, eliminating all Magento-core CSS. This optimizes the delivery of CSS - no unused CSS is sent to the visitor's browser.
+After all components were created and the HTML and CSS for them was ready, we implemented the HTML into our Magento 2 theme. The CSS is directly included from the component library, eliminating all Magento-core CSS. This optimizes the delivery of CSS - we are recucing the CSS by 50%. Going from around 150kb (gzipped) of css to around 70kb.
 
 ## Content management
 
