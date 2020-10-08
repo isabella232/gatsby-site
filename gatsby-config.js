@@ -42,13 +42,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-          path: `${__dirname}/src/collections/jobs`,
-          name: 'jobs',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
           path: `${__dirname}/src/collections/cases`,
           name: 'cases',
       },

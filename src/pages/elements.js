@@ -106,9 +106,9 @@ const Elements = (props) => (
                                             <li><a href="/" className="icon fa-tumblr"><span className="label">Tumblr</span></a></li>
                                         </ul>
                                         <ul className="icons">
-                                            <li><a href="/" className="icon alt fas fa-twitter"><span className="label">Twitter</span></a></li>
-                                            <li><a href="/" className="icon alt fas fa-facebook"><span className="label">Facebook</span></a></li>
-                                            <li><a href="/" className="icon alt fas fa-instagram"><span className="label">Instagram</span></a></li>
+                                            <li><a href="/" className="icon alt fab fa-twitter"><span className="label">Twitter</span></a></li>
+                                            <li><a href="/" className="icon alt fab fa-facebook"><span className="label">Facebook</span></a></li>
+                                            <li><a href="/" className="icon alt fab fa-instagram"><span className="label">Instagram</span></a></li>
                                         </ul>
 
                                     </div>
