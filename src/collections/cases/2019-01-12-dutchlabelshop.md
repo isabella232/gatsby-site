@@ -1,6 +1,6 @@
 ---
 type: case
-title:  "Case: Dutch Label Shop"
+title:  "Case: Dutchlabelshop"
 intro: ""
 date:   2019-12-01 10:13:37 +0100
 categories: magento
@@ -9,13 +9,13 @@ author: Peter Jaap Blaakmeer
 tags: magento2 laravel prismic fractal
 ---
 
-A completely revamped Magento 2 e-commerce platform to drive Dutch Label Shop's success in the custom label market.
+A completely revamped Magento 2 e-commerce platform to drive Dutchlabelshop's success in the custom label market.
 
-## Dutch Label Shop
-In the age of ecommerce and Etsy, crafters are afforded the opportunity to bring their passions to life in a way like never before. Boutique owners can now turn a collection of handmade garments into a profitable and professional brand. Dutch Label Shop offers these creative artisans a line of products to proudly and definitively identify their work as their own. Dutch Label Shop offers four types of high-quality customized labels —Brand, Size, Care, and Hang Tags— in quantities as low as 30.
+## Dutchlabelshop
+In the age of ecommerce and Etsy, crafters are afforded the opportunity to bring their passions to life in a way like never before. Boutique owners can now turn a collection of handmade garments into a profitable and professional brand. Dutchlabelshop offers these creative artisans a line of products to proudly and definitively identify their work as their own. Dutchlabelshop offers four types of high-quality customized labels —Brand, Size, Care, and Hang Tags— in quantities as low as 30.
 
 ## The challenge
-Dutch Label Shop approached us to do a rebuild of their IT infrastructure. Their previous shop (also built by us) was running on Magento 1, which is approaching end of life in June 2020. 
+Dutchlabelshop approached us to do a rebuild of their IT infrastructure. Their previous shop (also built by us) was running on Magento 1, which is approaching end of life in June 2020. 
 
 A large part of the codebase was for processing of the orders after they were placed to support the production process. We leapt at the opportunity to re-architect the codebase to make the system more robust, flexible and versatile.
 
@@ -23,7 +23,7 @@ We planned our work in two-week sprints and our client spent one day a week at o
 
 ## Migrating from Magento 1 to 2
 
-We had many years of customizations built into the Magento 1 installation which culminated in 75 custom-built extensions. Our first step was to sit with the client team to discuss every single extension that we used in the Magento 1 shop and assess whether we need to skip it, port it or find an alternative for the Magento 2 build.
+We had many years of customizations built into the Magento 1 installation which culminated in 75 custom-built extensions. Our first step was to sit with the client team to discuss every single extension that we used in the Magento 1 store and assess whether we need to skip it, port it or find an alternative for the Magento 2 build.
 
 ## Service Oriented Architecture
 
@@ -43,13 +43,13 @@ This case study will expand on each of them to shed some light on how we think a
 
 ## Frontend components
 
-The designer at Dutch Label Shop designed the website in close collaboration with our frontend team. The new shop was designed using Figma, which allowed us to easily collaborate on the designs and the frontend implementation with the team at Dutch Label Shop.
+The designer at Dutchlabelshop designed the website in close collaboration with our frontend team. The new shop was designed using Figma, which allowed us to easily collaborate on the designs and the frontend implementation with the team at Dutchlabelshop.
 
 !['Figma'](../../assets/images/cases/dutch-label-shop/screenshot-figma-uploader.jpg)
 
 !['Figma'](../../assets/images/cases/dutch-label-shop/screenshot-figma-hangtag.jpg)
 
-Having a single source of truth with versioning and full transparency & history was a great advantage when transforming the designs into an actual frontend implementation. To create a uniform look and feel completely tailored to Dutch Label Shop's visual identity, we decided to create all frontend components from scratch and not fall back on any defaults (whether from Magento or another third party library). To achieve this, we built a component library and a styleguide using [Fractal.js](https://fractal.build/) - trusted by City of Boston, City of Ghent, Liip and Eurostar among others.
+Having a single source of truth with versioning and full transparency & history was a great advantage when transforming the designs into an actual frontend implementation. To create a uniform look and feel completely tailored to Dutchlabelshop's visual identity, we decided to create all frontend components from scratch and not fall back on any defaults (whether from Magento or another third party library). To achieve this, we built a component library and a styleguide using [Fractal.js](https://fractal.build/) - trusted by City of Boston, City of Ghent, Liip and Eurostar among others.
 
 !['Fractal'](../../assets/images/cases/dutch-label-shop/dls-components-fractal.jpg)
 
@@ -90,49 +90,68 @@ Unfortunately, there was no Magento 2 extension available to connect Prismic wit
 
 ## Product designers & uploaders
 
-Heart of the sales process for Dutchlabelshop is the obviously the product. Dutchlabelshop has some labels in stock, like the `Made in` labels. The rest of the products you have to design yourself with what we call `configurators`. We can separate the configurators in 2 categories, and uploader - were you upload an image and create the label from there, and a designer - where you design a label from some preset options that are provided. We learned alot from these types in magento 1. First thing is that we dont want server side rendering for creating the label previews. Main reason here is that SSR is to slow, first and foremost because of the network latency. A CSR approach gives the customer instant results when he changes something in the configurator. Also with CSR we dont have to think about possible scaling issues when you SSR images with customer input. We choose React to build the configurators. For the preview we chose fabric.js as an extra object model on top of the HTML canvas element.
+The core of the sales process for Dutchlabelshop is the obviously the product. Dutchlabelshop has some labels in stock, like the `Made in` labels. The rest of the products you have to design yourself with what we call `configurators`. We can separate the configurators in two categories, an uploader - were you upload an image and create the label from there, and a designer - where you design a label from some preset options that are provided. We learned a lot from these types in the Magento 1 project. The first thing is that we don't want server-side rendering for generating the label previews. The main reason here is that server-side rendering is too slow, first and foremost because of the network latency. A client-side rendering approach gives the customer instant results when changes are made using the configurator. With client-side rendering, we don't have to think about possible scaling issues as we would have when we would use server-side rendering. We chose [React](https://reactjs.org/) to build the configurators. For the preview we chose [Fabric.js](http://fabricjs.com/) as an extra object model on top of the HTML canvas element.
 
-The basis of each configurator is a JSON file that is being downloaded on page view, with this json the react application is rendering the client input fields. On each change, a new preview is generated.
+For legacy browsers which do not support client-side rendering that well, we fallback to a server-side rendering client.
 
-### Designers
-TBD
-
-### Uploaders
-TBD
+The base of each configurator is a JSON file that is being downloaded on page view which contains all product data. With this JSON the React application is rendering the client input fields. On each change, a new preview is generated.
 
 ## Product library
+In Magento 1, the source for the product data was Magento itself. When we decided to move to a service oriented architecture, we needed a place for product to originate from. The product library is that place; it contains all product types and options. Every possible option/value for products in Dutchlabelshop are in the product library. We use the product library in the various of parts of the Dutchlabelshop technical landscape, such as Magento 2, the Order Management System, and the designers & uploaders. The product library utilizes a custom-built command line tool to generate a static JSON which is compromised of several different input files, to make maintenance and overview easier.
 
 ## Pricing library
+The pricing library is similar to the product library, except that this library contains all cost and sales prices. The pricing input is generated based on a complex calculation, which takes into account a large number of variables such as label size, denier, symbol yes/no, frame yes/no, sparkling color yes/no, etcetera.
 
 ## Microservices
 
-### PDF to PNG
-
 ### Color Extractor
-In the Magento 1 shop, customers had to pick the colors that were present on the label. For the new shop, the client wanted this process to be automatic. With the help of machine learning, the colors are automatically extracted from the image. The color information is then saved in Magento and used during the production process. 
+In the Magento 1 store, customers had to pick the colors that were present on the label. For the new shop, the client wanted this process to be automatic. With the help of machine learning, the colors are automatically extracted from the image. The color information is then saved in Magento and used during the production process. 
 
 ### Translations
-
-### Image generation
+Since the store is available in 16 languages, we needed a way to make sure all translations for all text is available. We created a translation microservice which parses all template files for translatable text. We then check for each piece of text whether a translation is available in all 16 languages. We have hooked this microservice into our deployment process, which will warn (or fail above a certain threshold) when missing translations are found.
 
 ## Business processes
 
-The main responsibility for the middleware is to track the production of orders. Because the processes were built into the Magento 1 shop, we had to port them to the middleware. This gave us a nice opportunity to revisit the processes. First, we needed to see what the current process looked like. Fortunately, the processes were already documented by Dutch Label Shop because they operate as a fully remote company. 
+The main responsibility for the middleware is to track the production of orders. Because the processes were built into the Magento 1 store, we had to port them to the middleware. This gave us a nice opportunity to revisit the processes. First, we needed to see what the current process looked like. Fortunately, the processes were already documented by Dutchlabelshop because they operate as a fully remote company. 
 
-In this case, well crafted documentation did not only help getting new employees up to speed quickly, but it also helped us to see what the current process looked like. 
+In this case, well crafted documentation did not only help getting new employees up to speed quickly, but it also helped us to see what the current process looked like.
 
-Next up was defining how the new process should look. To do this, we had multiple sessions with the client to visualize the entire workflow. We made a flowchart in [Lucidchart](https://www.lucidchart.com/). The great thing about Lucidchart is the collaboration feature. For us, this meant that we could work together with the client on the same chart at the same time. 
+Next up was defining how the new process should look. To do this, we had multiple sessions with the client to visualize the entire workflow. We made a flowchart in [Lucidchart](https://www.lucidchart.com/). The great thing about Lucidchart is the collaboration feature. For us, this meant that we could work together with the client on the same chart at the same time.
+
+To get a grasp on the business processes with regards to the manufacturing of the labels, Peter Jaap and Jeroen visited Dutchlabelshop's production facility.
+
+!['Power loom'](../../assets/images/cases/dutch-label-shop/powerloom.png)
+*Power loom*
+
+!['Color spools'](../../assets/images/cases/dutch-label-shop/color-spools.png)
+*Color spools*
+
+!['Lasercutter'](../../assets/images/cases/dutch-label-shop/lasercutter.png)
+*Lasercutter*
+
+!['elgentos logo labels'](../../assets/images/cases/dutch-label-shop/elgentos-logo-label.jpg)
+*Our test product - elgentos logo labels* 
 
 ## Middleware
 
 At the heart of the new shop is the custom middleware, the Order Management System or OMS for short. We built the OMS on top of Laravel, the PHP framework. 
 
-After building the flowchart, we had a clear vision about how the entire production process should flow through the application. With this in mind, we could start building the foundation of the application. For this, we broke down the application into its smallest part: the screen.
+After building the flowchart and visiting the production facility, we had a clear vision about how the entire production process should flow through the application. With this in mind, we could start building the foundation of the application. For this, we broke down the application into its smallest part: the screen.
 
 ### Screens
 The production process consists of a number of steps. Some of these steps have one or multiple people working on it. These people only need to see the information relevant to them at that time. For this, we created screens. A screen is an overview page with all the orders that are in that step of the workflow. A screen can contain multiple actions that are different per context. A factory employee can look at the orders in his step and only focus on those orders. Orders can then be sent to the next step in the workflow or be sent back, for example, when something went wrong during production. 
 
-!['Example of a screen](../../assets/images/cases/dutch-label-shop/screenshot-oms-screen.png)
+!['Order detail screen'](../../assets/images/cases/dutch-label-shop/order-detail-screen.png)
+*Order detail screen'*
+
+!['QA design process workflow](../../assets/images/cases/dutch-label-shop/qa-design-process.png)
+*QA design process workflow*
+
+!['Upload Photo Proof workflow](../../assets/images/cases/dutch-label-shop/upload-photo-proof.png)
+*Upload Photo Proof workflow*
+
+!['Cutting preparation workflow](../../assets/images/cases/dutch-label-shop/cutting-preparation.png)
+*Cutting preparation workflow*
 
 ### Permissions
 One of the most important features of the OMS is the permission system. In the production process, an employee is responsible for one or multiple steps. With the permission system, we can limit the employee to only see specific screens that are needed for his task. Within the workflow, permissions are connected to each step. As an extra precaution, the permission for each order is handled by the workflow. When an order goes to the next step, the workflow automatically checks what permission is connected to that step. This permission is then added to the order, so the right employee sees it. 
@@ -146,9 +165,11 @@ The notification manager is also used with shipping notifications. OMS is respon
 
 !['Notification Manager Example](../../assets/images/cases/dutch-label-shop/notification-manager-example.png)
 
+## Deployments
 
+We needed to make sure all these moving parts fit in together like they suppose to. We also needed a way to keep code quality up to par and to warn us when something is off. To achieve this, we have implemented a CI/CD pipeline in Gitlab to automate several checks and build processes for us.
 
+!['CI/CD pipeline'](../../assets/images/cases/dutch-label-shop/pipeline.png)
+*CI/CD pipeline*
 
-
-
-
+This pipeline produces a small website with documentation about code quality, code complexity, security checks, translation checks, etcetera for our developers to review periodically.
